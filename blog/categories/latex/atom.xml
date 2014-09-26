@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: latex | GIS行迹]]></title>
+  <link href="http://hengcai.github.io/blog/categories/latex/atom.xml" rel="self"/>
+  <link href="http://hengcai.github.io/"/>
+  <updated>2014-09-26T11:44:01+08:00</updated>
+  <id>http://hengcai.github.io/</id>
+  <author>
+    <name><![CDATA[hengcai]]></name>
+    <email><![CDATA[hengcai007@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LaTex入门]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/latex-basic/"/>
+    <updated>2014-09-26T09:27:35+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/latex-basic</id>
+    <content type="html"><![CDATA[<h1>Latex 入门知识</h1>
+
+<hr />
+
+<h3>简述</h3>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T09:20:06+08:00</updated>
+  <updated>2014-09-26T11:44:01+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,157 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Alljoyn基础知识学习]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/iot-alljoy-sample/"/>
+    <updated>2014-09-26T09:31:30+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/iot-alljoy-sample</id>
+    <content type="html"><![CDATA[<h1>Allogyn基础知识</h1>
+
+<hr />
+
+<h3>简介</h3>
+
+<p>Alljoyn是高通公司推出的一种近距离对等网络通信技术，Qualcomm的目标是构建万物互联的生态系统，将芯片技术应用与任何穿戴设备，智能家居等中。2011年12月将Alljoyn捐赠给<strong>物联网联盟AllSeen</strong>。目前，Alljoyn设计的平台涉及Android、IOS、LInu、WIndows等，Alljoyn构建与操作系统之上，底层网络协议支持多种通信技术，如WIFI、蓝牙等。</p>
+
+<blockquote><p>更详细的介绍可以参照博客<a href="http://www.cnblogs.com/alljoyn/p/3556783.html">Alljoyn之管中窥豹</a>。</p></blockquote>
+
+<p>目前已有典型应用如<a href="https://www.alljoyn.org/app-developers/featured-apps/abbyy-business-card-reader">Business Card Reader</a>等，查看更多的案例，可以参照<a href="https://www.alljoyn.org/app-developers/featured-apps">APPS</a>。</p>
+
+<h3>Linux环境编译</h3>
+
+<blockquote><ol>
+<li>编译</li>
+</ol>
+</blockquote>
+
+<p><img src="http://hengcai.github.io/images/post_images/2014-09-26/iot_compile.png" alt="" /></p>
+
+<h3>Demo实例</h3>
+
+<h3>总结</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Clojure 入门]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/clojure-basic/"/>
+    <updated>2014-09-26T09:28:14+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/clojure-basic</id>
+    <content type="html"><![CDATA[<h1>Clojure基础知识</h1>
+
+<hr />
+
+<h1>概述</h1>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[VIM 常用命令]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/vim-basic/"/>
+    <updated>2014-09-26T09:27:53+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/vim-basic</id>
+    <content type="html"><![CDATA[<h1>VIM 产用命令</h1>
+
+<h3>Vundle配置</h3>
+
+<h3>GDB配置</h3>
+
+<h3>GO、Clojure、Java、Python、C/C++环境配置</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LaTex入门]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/latex-basic/"/>
+    <updated>2014-09-26T09:27:35+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/latex-basic</id>
+    <content type="html"><![CDATA[<h1>Latex 入门知识</h1>
+
+<hr />
+
+<h3>简述</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Go语言环境配置]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/golang-enviroment/"/>
+    <updated>2014-09-26T09:27:00+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/golang-enviroment</id>
+    <content type="html"><![CDATA[<h1>GO语言环境配置</h1>
+
+<hr />
+
+<h4>Windows环境配置</h4>
+
+<h3>Linux环境配置</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MatLab案例学习1]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/matlab-case1/"/>
+    <updated>2014-09-26T09:26:39+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/matlab-case1</id>
+    <content type="html"><![CDATA[<h1>Matlab统计分析与案例应用</h1>
+
+<h3>环境配置</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[R基础知识]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/r-basic-information/"/>
+    <updated>2014-09-26T09:26:15+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/r-basic-information</id>
+    <content type="html"><![CDATA[<h1>R语言基础知识</h1>
+
+<hr />
+
+<h3>简介</h3>
+
+<blockquote><ol>
+<li><p>安装</p></li>
+<li><p>包的管理</p></li>
+<li><p>常用命令</p></li>
+</ol>
+</blockquote>
+
+<h3>R的基础数据结构</h3>
+
+<blockquote><ol>
+<li><p>向量</p></li>
+<li><p>矩阵</p></li>
+<li><p>数组</p></li>
+<li><p>数据框</p></li>
+<li><p>列表</p></li>
+</ol>
+</blockquote>
+
+<h3>R的数据基本操作</h3>
+
+<blockquote><ol>
+<li><p>键盘输入</p></li>
+<li><p>CSV数据</p></li>
+<li><p>EXCEL数据</p></li>
+<li><p>Database数据</p></li>
+<li><p>其他数据源</p></li>
+</ol>
+</blockquote>
+
+<h3>R的基本图形绘制</h3>
+
+<blockquote><ol>
+<li><p>基本图形</p></li>
+<li><p>符号线条</p></li>
+<li><p>文本</p></li>
+<li><p>尺寸</p></li>
+</ol>
+</blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MarkDown学习笔记]]></title>

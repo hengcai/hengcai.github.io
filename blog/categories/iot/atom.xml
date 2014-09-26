@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iot | GIS行迹]]></title>
+  <link href="http://hengcai.github.io/blog/categories/iot/atom.xml" rel="self"/>
+  <link href="http://hengcai.github.io/"/>
+  <updated>2014-09-26T11:44:01+08:00</updated>
+  <id>http://hengcai.github.io/</id>
+  <author>
+    <name><![CDATA[hengcai]]></name>
+    <email><![CDATA[hengcai007@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Alljoyn基础知识学习]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/26/iot-alljoy-sample/"/>
+    <updated>2014-09-26T09:31:30+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/26/iot-alljoy-sample</id>
+    <content type="html"><![CDATA[<h1>Allogyn基础知识</h1>
+
+<hr />
+
+<h3>简介</h3>
+
+<p>Alljoyn是高通公司推出的一种近距离对等网络通信技术，Qualcomm的目标是构建万物互联的生态系统，将芯片技术应用与任何穿戴设备，智能家居等中。2011年12月将Alljoyn捐赠给<strong>物联网联盟AllSeen</strong>。目前，Alljoyn设计的平台涉及Android、IOS、LInu、WIndows等，Alljoyn构建与操作系统之上，底层网络协议支持多种通信技术，如WIFI、蓝牙等。</p>
+
+<blockquote><p>更详细的介绍可以参照博客<a href="http://www.cnblogs.com/alljoyn/p/3556783.html">Alljoyn之管中窥豹</a>。</p></blockquote>
+
+<p>目前已有典型应用如<a href="https://www.alljoyn.org/app-developers/featured-apps/abbyy-business-card-reader">Business Card Reader</a>等，查看更多的案例，可以参照<a href="https://www.alljoyn.org/app-developers/featured-apps">APPS</a>。</p>
+
+<h3>Linux环境编译</h3>
+
+<blockquote><ol>
+<li>编译</li>
+</ol>
+</blockquote>
+
+<p><img src="/images/post_images/2014-09-26/iot_compile.png" alt="" /></p>
+
+<h3>Demo实例</h3>
+
+<h3>总结</h3>
+]]></content>
+  </entry>
+  
+</feed>
