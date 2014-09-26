@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: blog | GIS行迹]]></title>
-  <link href="http://hengcai.github.io/blog/categories/blog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: markdown | GIS行迹]]></title>
+  <link href="http://hengcai.github.io/blog/categories/markdown/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T11:44:01+08:00</updated>
+  <updated>2014-09-26T14:08:22+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -18,7 +18,7 @@
     <link href="http://hengcai.github.io/blog/2014/09/24/firstblog/"/>
     <updated>2014-09-24T11:18:51+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/09/24/firstblog</id>
-    <content type="html"><![CDATA[<h1>Linux与Windows交互开发环境</h1>
+    <content type="html"><![CDATA[<h3>Linux与Windows交互开发环境</h3>
 
 <ul>
 <li>LInux选择Centos 6.5  WIndows7，交互方式Samba</li>
@@ -27,7 +27,7 @@
 </ul>
 
 
-<h1>GitHub搭建</h1>
+<h3>GitHub搭建</h3>
 
 <ul>
 <li>采用OctoPress，</li>

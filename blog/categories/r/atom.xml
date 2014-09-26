@@ -4,7 +4,7 @@
   <title><![CDATA[Category: r | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/r/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T11:44:01+08:00</updated>
+  <updated>2014-09-26T14:08:22+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -18,11 +18,7 @@
     <link href="http://hengcai.github.io/blog/2014/09/26/r-basic-information/"/>
     <updated>2014-09-26T09:26:15+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/09/26/r-basic-information</id>
-    <content type="html"><![CDATA[<h1>R语言基础知识</h1>
-
-<hr />
-
-<h3>简介</h3>
+    <content type="html"><![CDATA[<h3>简介</h3>
 
 <blockquote><ol>
 <li><p>安装</p></li>

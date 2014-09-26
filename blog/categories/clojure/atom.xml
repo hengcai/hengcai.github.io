@@ -4,7 +4,7 @@
   <title><![CDATA[Category: clojure | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/clojure/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T11:44:01+08:00</updated>
+  <updated>2014-09-26T14:08:22+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -18,11 +18,7 @@
     <link href="http://hengcai.github.io/blog/2014/09/26/clojure-basic/"/>
     <updated>2014-09-26T09:28:14+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/09/26/clojure-basic</id>
-    <content type="html"><![CDATA[<h1>Clojure基础知识</h1>
-
-<hr />
-
-<h1>概述</h1>
+    <content type="html"><![CDATA[<h1>概述</h1>
 ]]></content>
   </entry>
   
