@@ -200,9 +200,91 @@ var jiathis_config = {data_track_clickback:'true'};
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/hengcai">@hengcai</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'hengcai',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos',
+            blacklist: ''
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
 
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/iot-alljoy-sample/">Alljoyn基础知识学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/clojure-basic/">Clojure 入门</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/vim-basic/">VIM 常用命令</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/latex-basic/">LaTex入门</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/golang-enviroment/">Go语言环境配置</a>
+      </li>
+    
+  </ul>
+</section>
+﻿<section>
+    <h1>新浪微博</h1>
+    <ul id="weibo">
+    <li>
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1985589877&verifier=79d13760&dpc=1"></iframe>
+
+      </li>
+    </ul>
+</section>﻿<section>
+  <h1>访客地图</h1>
+ <script type="text/javascript" src="//rd.revolvermaps.com/0/0/1.js?i=3ggjuet09mf&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+</section><section>
+ <h1>分类目录</h1>
+ <ul id="categories">
+	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+<li class='category'><a href='/blog/categories/go/'>go (1)</a></li>
+<li class='category'><a href='/blog/categories/iot/'>iot (1)</a></li>
+<li class='category'><a href='/blog/categories/latex/'>latex (1)</a></li>
+<li class='category'><a href='/blog/categories/markdown/'>markdown (1)</a></li>
+<li class='category'><a href='/blog/categories/matlab/'>matlab (1)</a></li>
+<li class='category'><a href='/blog/categories/r/'>r (1)</a></li>
+<li class='category'><a href='/blog/categories/vim/'>vim (1)</a></li>
+
+ </ul>
+</section>
 
   
 </aside>
