@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-06T17:24:55+08:00</updated>
+  <updated>2014-10-06T19:55:26+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,93 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[latex layout]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/06/latex-layout/"/>
+    <updated>2014-10-06T19:44:18+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/06/latex-layout</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Latex+Sublime+windows开发环境配置]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/06/latex-sublime-env/"/>
+    <updated>2014-10-06T19:44:07+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/06/latex-sublime-env</id>
+    <content type="html"><![CDATA[<h3>Sublime 安装 LatexTools</h3>
+
+<ol>
+<li>Sublime 打开 <code>ctrl + Shift +p</code> 输入 <code>Latex Tools</code></li>
+<li>Windows安装 <code>TextLive</code> 或者 <code>CTex</code></li>
+<li>配置环境变量，如下</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>"windows": {
+</span><span class='line'>      // Path used when invoking tex & friends; "" is fine for MiKTeX
+</span><span class='line'>      // For TeXlive 2011 (or other years) use
+</span><span class='line'>      // "texpath" : "C:\\texlive\\2011\\bin\\win32;$PATH",
+</span><span class='line'>      //"texpath" : "",
+</span><span class='line'>      "texpath" : "C:\\texlive\\2014\bin\\win32;$PATH",
+</span><span class='line'>      // TeX distro: "miktex" or "texlive"
+</span><span class='line'>      "distro" : "texlive"
+</span><span class='line'>  },</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>编写编译文档</h3>
+
+<ol>
+<li>新建Tex，输入编辑内容</li>
+<li>安装 <code>ctrl+b</code>进行编译</li>
+</ol>
+
+
+<p>demo</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>\documentclass[UTF8]{ctexart}
+</span><span class='line'>\begin    {document}
+</span><span class='line'>
+</span><span class='line'>Happy \TeX ing
+</span><span class='line'>
+</span><span class='line'>\section{数字}
+</span><span class='line'>
+</span><span class='line'>\[    
+</span><span class='line'>a^2 + b^2 =c^2
+</span><span class='line'>\]
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>\end{document}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>运行结果</p>
+
+<p><img src="http://hengcai.github.io/images/post_images/2014-10-06/sublime-latex.png" alt="" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GoConvey使用说明]]></title>
