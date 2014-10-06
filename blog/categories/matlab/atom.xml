@@ -4,7 +4,7 @@
   <title><![CDATA[Category: matlab | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/matlab/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T15:43:30+08:00</updated>
+  <updated>2014-10-06T17:24:55+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -18,7 +18,38 @@
     <link href="http://hengcai.github.io/blog/2014/09/26/matlab-case1/"/>
     <updated>2014-09-26T09:26:39+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/09/26/matlab-case1</id>
-    <content type="html"><![CDATA[<h3>环境配置</h3>
+    <content type="html"><![CDATA[<h3>Matlab与Office文档互操作</h3>
+
+<ol>
+<li>actxcontrol()函数
+
+<blockquote><p>h = actxcontrol(&lsquo;progid&rsquo;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,&lsquo;param1&rsquo;,value1,&hellip;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;, position,fig_handle)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler,&lsquo;filename&rsquo;)</p></blockquote></li>
+</ol>
+
+
+<p>实际应用：</p>
+
+<ol>
+<li>actxserver()函数</li>
+</ol>
+
+
+<blockquote><p>ps:
+tasklist /m **.dll</p></blockquote>
+
+<hr />
+
+<blockquote><p>读书笔记 <strong><em><a href="http://ilovematlab.cn/forum-181-1.html">&lt;&lt;Matlab统计分析与应用:40个案例分析>></a></em></strong></p></blockquote>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-09-26T15:43:30+08:00</updated>
+  <updated>2014-10-06T17:24:55+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,187 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GoConvey使用说明]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/06/golang-goconvey/"/>
+    <updated>2014-10-06T17:20:12+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/06/golang-goconvey</id>
+    <content type="html"><![CDATA[<h4>案例</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">import</span> <span class="p">(</span>
+</span><span class='line'>  <span class="p">.</span> <span class="s">&quot;github.com/smartystreets/goconvey/convey&quot;</span>
+</span><span class='line'>  <span class="s">&quot;testing&quot;</span>
+</span><span class='line'><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestAdd</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;两数相加&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestSubtract</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;subtract &quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Subtract</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestMultiply</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Muyltipy&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Multipy</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestDivision</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Dicision&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数 0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">_</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldNotBeNil</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">})</span>
+</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数不为0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">num</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldBeNil</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">num</span><span class="p">,</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">})</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Go语言Web程序开发]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/30/golang-goweb/"/>
+    <updated>2014-09-30T21:53:57+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/30/golang-goweb</id>
+    <content type="html"><![CDATA[<h3>web开发常用工具</h3>
+
+<p>mvc 工具</p>
+
+<blockquote><p>revel
+beego</p></blockquote>
+
+<p>demo</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">package</span> <span class="nx">main</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">import</span> <span class="p">(</span>
+</span><span class='line'>  <span class="s">&quot;github.com/astaxie/beego&quot;</span>
+</span><span class='line'><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">type</span> <span class="nx">HomeController</span> <span class="kd">struct</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Controller</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">func</span> <span class="p">(</span><span class="nx">this</span> <span class="o">*</span><span class="nx">HomeController</span><span class="p">)</span> <span class="nx">Get</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">this</span><span class="p">.</span><span class="nx">Ctx</span><span class="p">.</span><span class="nx">WriteString</span><span class="p">(</span><span class="s">&quot;Hello World Hengcai&quot;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Router</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">HomeController</span><span class="p">{})</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Run</span><span class="p">()</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[golang xorm]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/30/golang-xorm/"/>
+    <updated>2014-09-30T20:12:00+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/30/golang-xorm</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[golang goconfig]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/30/golang-goconfig/"/>
+    <updated>2014-09-30T20:11:49+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/30/golang-goconfig</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Beego库学习]]></title>
+    <link href="http://hengcai.github.io/blog/2014/09/30/golang-beego/"/>
+    <updated>2014-09-30T20:11:15+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/09/30/golang-beego</id>
+    <content type="html"><![CDATA[<h3>入门实例</h3>
+
+<h3>路由设置</h3>
+
+<h5>1.基本路由</h5>
+
+<h5>2.映射路由</h5>
+
+<h5>3.自动化路由</h5>
+
+<p>&lsquo;&rsquo;&lsquo;go
+beego.AutoRouter()</p>
+
+<p>&lsquo;&rsquo;&#8217;</p>
+
+<h3>命名空间Namespace</h3>
+
+<p>&lsquo;&rsquo;&lsquo;go</p>
+
+<p>&lsquo;&rsquo;&#8217;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Alljoyn基础知识学习]]></title>
@@ -88,7 +269,38 @@
     <link href="http://hengcai.github.io/blog/2014/09/26/matlab-case1/"/>
     <updated>2014-09-26T09:26:39+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/09/26/matlab-case1</id>
-    <content type="html"><![CDATA[<h3>环境配置</h3>
+    <content type="html"><![CDATA[<h3>Matlab与Office文档互操作</h3>
+
+<ol>
+<li>actxcontrol()函数
+
+<blockquote><p>h = actxcontrol(&lsquo;progid&rsquo;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,&lsquo;param1&rsquo;,value1,&hellip;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;, position,fig_handle)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler,&lsquo;filename&rsquo;)</p></blockquote></li>
+</ol>
+
+
+<p>实际应用：</p>
+
+<ol>
+<li>actxserver()函数</li>
+</ol>
+
+
+<blockquote><p>ps:
+tasklist /m **.dll</p></blockquote>
+
+<hr />
+
+<blockquote><p>读书笔记 <strong><em><a href="http://ilovematlab.cn/forum-181-1.html">&lt;&lt;Matlab统计分析与应用:40个案例分析>></a></em></strong></p></blockquote>
 ]]></content>
   </entry>
   
