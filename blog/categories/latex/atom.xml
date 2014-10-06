@@ -4,7 +4,7 @@
   <title><![CDATA[Category: latex | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/latex/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-06T19:55:26+08:00</updated>
+  <updated>2014-10-06T20:13:31+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Latex 版面设计]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/06/latex-layout/"/>
+    <updated>2014-10-06T19:44:18+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/06/latex-layout</id>
+    <content type="html"><![CDATA[<h3>版面设计的关键要素</h3>
+
+<p>页眉+页脚+版心+水平基准线+垂直基准线。。。。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Latex+Sublime+windows开发环境配置]]></title>
