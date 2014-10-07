@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-07T16:50:23+08:00</updated>
+  <updated>2014-10-07T17:15:27+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[golang cef]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/07/golang-cef/"/>
+    <updated>2014-10-07T17:14:59+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/07/golang-cef</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[gis visualization protovis]]></title>
@@ -180,15 +189,6 @@
     <link href="http://hengcai.github.io/blog/2014/10/07/gis-gpsdrive/"/>
     <updated>2014-10-07T16:28:25+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/07/gis-gpsdrive</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis maptiler]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-maptiler/"/>
-    <updated>2014-10-07T16:27:54+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-maptiler</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

@@ -9,8 +9,27 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="web开发常用工具 mvc 工具 revel
+beego demo 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+package main import ( &quot;github.com/astaxie/beego&quot;
+) type &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +85,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-goweb/">Go语言Web程序开发</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-30T21:53:57+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/30/golang-goweb/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>web开发常用工具</h3>
+
+<p>mvc 工具</p>
+
+<blockquote><p>revel
+beego</p></blockquote>
+
+<p>demo</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">package</span> <span class="nx">main</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">import</span> <span class="p">(</span>
+</span><span class='line'>  <span class="s">&quot;github.com/astaxie/beego&quot;</span>
+</span><span class='line'><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">type</span> <span class="nx">HomeController</span> <span class="kd">struct</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Controller</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">func</span> <span class="p">(</span><span class="nx">this</span> <span class="o">*</span><span class="nx">HomeController</span><span class="p">)</span> <span class="nx">Get</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">this</span><span class="p">.</span><span class="nx">Ctx</span><span class="p">.</span><span class="nx">WriteString</span><span class="p">(</span><span class="s">&quot;Hello World Hengcai&quot;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Router</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">HomeController</span><span class="p">{})</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Run</span><span class="p">()</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -531,83 +634,6 @@ tasklist /m **.dll</p></blockquote>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/26/r-basic-information/">R基础知识</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-26T09:26:15+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/26/r-basic-information/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>简介</h3>
-
-<blockquote><ol>
-<li><p>安装</p></li>
-<li><p>包的管理</p></li>
-<li><p>常用命令</p></li>
-</ol>
-</blockquote>
-
-<h3>R的基础数据结构</h3>
-
-<blockquote><ol>
-<li><p>向量</p></li>
-<li><p>矩阵</p></li>
-<li><p>数组</p></li>
-<li><p>数据框</p></li>
-<li><p>列表</p></li>
-</ol>
-</blockquote>
-
-<h3>R的数据基本操作</h3>
-
-<blockquote><ol>
-<li><p>键盘输入</p></li>
-<li><p>CSV数据</p></li>
-<li><p>EXCEL数据</p></li>
-<li><p>Database数据</p></li>
-<li><p>其他数据源</p></li>
-</ol>
-</blockquote>
-
-<h3>R的基本图形绘制</h3>
-
-<blockquote><ol>
-<li><p>基本图形</p></li>
-<li><p>符号线条</p></li>
-<li><p>文本</p></li>
-<li><p>尺寸</p></li>
-</ol>
-</blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="10">&larr; Older</a>
@@ -639,6 +665,10 @@ tasklist /m **.dll</p></blockquote>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/07/golang-cef/">golang cef</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/07/gis-visualization-protovis/">gis visualization protovis</a>
       </li>
     
@@ -652,10 +682,6 @@ tasklist /m **.dll</p></blockquote>
     
       <li class="post">
         <a href="/blog/2014/10/07/message-agent-jade/">message agent jade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/07/message-zeromq/">message zeromq</a>
       </li>
     
   </ul>
