@@ -9,7 +9,7 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="版面设计的关键要素 页眉+页脚+版心+水平基准线+垂直基准线。。。。
+  <meta name="description" content="
 ">
   
 
@@ -72,7 +72,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/10/06/latex-layout/">Latex 版面设计</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/gis-visualization-protovis/">Gis Visualization Protovis</a></h1>
     
     
       <p class="meta">
@@ -88,349 +88,9 @@
   
 
 
-<time datetime="2014-10-06T19:44:18+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:42:25+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/10/06/latex-layout/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>版面设计的关键要素</h3>
-
-<p>页眉+页脚+版心+水平基准线+垂直基准线。。。。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/06/latex-sublime-env/">Latex+Sublime+windows开发环境配置</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-06T19:44:07+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/10/06/latex-sublime-env/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>Sublime 安装 LatexTools</h3>
-
-<ol>
-<li>Sublime 打开 <code>ctrl + Shift +p</code> 输入 <code>Latex Tools</code></li>
-<li>Windows安装 <code>TextLive</code> 或者 <code>CTex</code></li>
-<li>配置环境变量，如下</li>
-</ol>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>"windows": {
-</span><span class='line'>      // Path used when invoking tex & friends; "" is fine for MiKTeX
-</span><span class='line'>      // For TeXlive 2011 (or other years) use
-</span><span class='line'>      // "texpath" : "C:\\texlive\\2011\\bin\\win32;$PATH",
-</span><span class='line'>      //"texpath" : "",
-</span><span class='line'>      "texpath" : "C:\\texlive\\2014\bin\\win32;$PATH",
-</span><span class='line'>      // TeX distro: "miktex" or "texlive"
-</span><span class='line'>      "distro" : "texlive"
-</span><span class='line'>  },</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>编写编译文档</h3>
-
-<ol>
-<li>新建Tex，输入编辑内容</li>
-<li>安装 <code>ctrl+b</code>进行编译</li>
-</ol>
-
-
-<p>demo</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>\documentclass[UTF8]{ctexart}
-</span><span class='line'>\begin    {document}
-</span><span class='line'>
-</span><span class='line'>Happy \TeX ing
-</span><span class='line'>
-</span><span class='line'>\section{数字}
-</span><span class='line'>
-</span><span class='line'>\[    
-</span><span class='line'>a^2 + b^2 =c^2
-</span><span class='line'>\]
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'>\end{document}</span></code></pre></td></tr></table></div></figure>
-
-
-<p>运行结果</p>
-
-<p><img src="/images/post_images/2014-10-06/sublime-latex.png" alt="" /></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/06/golang-goconvey/">GoConvey使用说明</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-06T17:20:12+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/10/06/golang-goconvey/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>案例</h4>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">import</span> <span class="p">(</span>
-</span><span class='line'>  <span class="p">.</span> <span class="s">&quot;github.com/smartystreets/goconvey/convey&quot;</span>
-</span><span class='line'>  <span class="s">&quot;testing&quot;</span>
-</span><span class='line'><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">func</span> <span class="nx">TestAdd</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;两数相加&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-</span><span class='line'>  <span class="p">})</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="kd">func</span> <span class="nx">TestSubtract</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;subtract &quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Subtract</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-</span><span class='line'>  <span class="p">})</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="kd">func</span> <span class="nx">TestMultiply</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Muyltipy&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Multipy</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="p">})</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="kd">func</span> <span class="nx">TestDivision</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Dicision&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数 0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>          <span class="nx">_</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldNotBeNil</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">})</span>
-</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数不为0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>          <span class="nx">num</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldBeNil</span><span class="p">)</span>
-</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">num</span><span class="p">,</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">})</span>
-</span><span class='line'>  <span class="p">})</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-goweb/">Go语言Web程序开发</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-30T21:53:57+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/30/golang-goweb/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>web开发常用工具</h3>
-
-<p>mvc 工具</p>
-
-<blockquote><p>revel
-beego</p></blockquote>
-
-<p>demo</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">package</span> <span class="nx">main</span>
-</span><span class='line'>
-</span><span class='line'><span class="kn">import</span> <span class="p">(</span>
-</span><span class='line'>  <span class="s">&quot;github.com/astaxie/beego&quot;</span>
-</span><span class='line'><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">type</span> <span class="nx">HomeController</span> <span class="kd">struct</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Controller</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">func</span> <span class="p">(</span><span class="nx">this</span> <span class="o">*</span><span class="nx">HomeController</span><span class="p">)</span> <span class="nx">Get</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">this</span><span class="p">.</span><span class="nx">Ctx</span><span class="p">.</span><span class="nx">WriteString</span><span class="p">(</span><span class="s">&quot;Hello World Hengcai&quot;</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Router</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">HomeController</span><span class="p">{})</span>
-</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Run</span><span class="p">()</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-xorm/">Golang Xorm</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-30T20:12:00+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/30/golang-xorm/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/gis-visualization-protovis/#disqus_thread">Comments</a>
         
       </p>
     
@@ -450,7 +110,7 @@ beego</p></blockquote>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-goconfig/">Golang Goconfig</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/gis-visualization-d3/">Gis Visualization D3</a></h1>
     
     
       <p class="meta">
@@ -466,9 +126,9 @@ beego</p></blockquote>
   
 
 
-<time datetime="2014-09-30T20:11:49+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:42:00+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/09/30/golang-goconfig/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/gis-visualization-d3/#disqus_thread">Comments</a>
         
       </p>
     
@@ -488,7 +148,7 @@ beego</p></blockquote>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-beego/">Beego库学习</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/gis-visualization-cartodb/">Gis Visualization Cartodb</a></h1>
     
     
       <p class="meta">
@@ -504,35 +164,16 @@ beego</p></blockquote>
   
 
 
-<time datetime="2014-09-30T20:11:15+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:41:56+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/09/30/golang-beego/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/gis-visualization-cartodb/#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h3>入门实例</h3>
-
-<h3>路由设置</h3>
-
-<h5>1.基本路由</h5>
-
-<h5>2.映射路由</h5>
-
-<h5>3.自动化路由</h5>
-
-<p>&lsquo;&rsquo;&lsquo;go
-beego.AutoRouter()</p>
-
-<p>&lsquo;&rsquo;&#8217;</p>
-
-<h3>命名空间Namespace</h3>
-
-<p>&lsquo;&rsquo;&lsquo;go</p>
-
-<p>&lsquo;&rsquo;&#8217;</p>
+  <div class="entry-content">
 </div>
   
   
@@ -545,7 +186,7 @@ beego.AutoRouter()</p>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/26/iot-alljoy-sample/">Alljoyn基础知识学习</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/message-agent-jade/">Message Agent Jade</a></h1>
     
     
       <p class="meta">
@@ -561,35 +202,16 @@ beego.AutoRouter()</p>
   
 
 
-<time datetime="2014-09-26T09:31:30+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:41:18+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/09/26/iot-alljoy-sample/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/message-agent-jade/#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h3>简介</h3>
-
-<p>Alljoyn是高通公司推出的一种近距离对等网络通信技术，Qualcomm的目标是构建万物互联的生态系统，将芯片技术应用与任何穿戴设备，智能家居等中。2011年12月将Alljoyn捐赠给<strong>物联网联盟AllSeen</strong>。目前，Alljoyn设计的平台涉及Android、IOS、LInu、WIndows等，Alljoyn构建与操作系统之上，底层网络协议支持多种通信技术，如WIFI、蓝牙等。</p>
-
-<blockquote><p>更详细的介绍可以参照博客<a href="http://www.cnblogs.com/alljoyn/p/3556783.html">Alljoyn之管中窥豹</a>。</p></blockquote>
-
-<p>目前已有典型应用如<a href="https://www.alljoyn.org/app-developers/featured-apps/abbyy-business-card-reader">Business Card Reader</a>等，查看更多的案例，可以参照<a href="https://www.alljoyn.org/app-developers/featured-apps">APPS</a>。</p>
-
-<h3>Linux环境编译</h3>
-
-<blockquote><ol>
-<li>编译</li>
-</ol>
-</blockquote>
-
-<p><img src="/images/post_images/2014-09-26/iot_compile.png" alt="" /></p>
-
-<h3>Demo实例</h3>
-
-<h3>总结</h3>
+  <div class="entry-content">
 </div>
   
   
@@ -602,7 +224,7 @@ beego.AutoRouter()</p>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/26/clojure-basic/">Clojure 入门</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/message-zeromq/">Message Zeromq</a></h1>
     
     
       <p class="meta">
@@ -618,16 +240,16 @@ beego.AutoRouter()</p>
   
 
 
-<time datetime="2014-09-26T09:28:14+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:41:08+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/09/26/clojure-basic/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/message-zeromq/#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h1>概述</h1>
+  <div class="entry-content">
 </div>
   
   
@@ -640,7 +262,7 @@ beego.AutoRouter()</p>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/26/vim-basic/">VIM 常用命令</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/10/07/message-rabbitmq/">Message Rabbitmq</a></h1>
     
     
       <p class="meta">
@@ -656,67 +278,168 @@ beego.AutoRouter()</p>
   
 
 
-<time datetime="2014-09-26T09:27:53+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-10-07T16:40:59+08:00" pubdate data-updated="true"></time>
         
-         | <a href="/blog/2014/09/26/vim-basic/#disqus_thread">Comments</a>
+         | <a href="/blog/2014/10/07/message-rabbitmq/#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h3>写在前面</h3>
-
-<p>看到高手用的VIM视频<a href="http://v.youku.com/v_show/id_XNDU4NTQxMjQ0_rss.html">vim</a>，也许会激发学习的动力</p>
-
-<hr />
-
-<h3>1. Vundle配置</h3>
-
-<blockquote><p>注意安装GIT Curl等软件</p></blockquote>
-
-<p><a href="https://github.com/gmarik/Vundle.vim">Clewn</a>常用命令:</p>
-
-<blockquote><ol>
-<li>BundleInstall</li>
-<li>BundleClean</li>
-<li>BundleUpdate</li>
-</ol>
-</blockquote>
-
-<h3>2. GDB配置</h3>
-
-<p>Clewn + vimgdb</p>
-
-<p>推荐使用:<a href="http://clewn.sourceforge.net/">clewn</a></p>
-
-<h3>3. GO、Clojure、Java、Python、C/C++环境支持</h3>
-
-<ol>
-<li>GO语言支持  ， <a href="https://github.com/fatih/vim-go">vim-go</a>插件不错，<a href="http://wuwen.org/article/38/setup-vim-go-dev-environment.html">无闻</a></li>
-<li>CLojure语言支持</li>
-<li>Python支持</li>
-<li>Java语言支持</li>
-</ol>
+  <div class="entry-content">
+</div>
+  
+  
 
 
-<h3>4. VIM基本命令</h3>
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/07/message-activemq/">Message Activemq</a></h1>
+    
+    
+      <p class="meta">
+        
 
-<blockquote><p><strong>插入命令</strong> : <code>**a, i ,o**</code></p>
 
-<p><strong>定位命令</strong> : <code>h, i, j, k,  G, gg, nG,  :n,   f{char},  H,  M,  L,  $  , 0</code></p>
 
-<p><strong>查找替换</strong>: <code>/pattern ?pattern  :s/target/replacement  :%s/target/replacement/g set ic  n1,n2s/target/replacement/g</code></p>
 
-<p><strong>删除命令</strong>* :<code>x  nx dd  dG D  ns,ne d</code></p>
 
-<p><strong>复制粘贴</strong> ： <code>yy Y dd  p P</code></p>
 
-<p><strong>替换</strong>： <code>r R</code></p>
 
-<p><strong>恢复重复</strong> : <code>u U .</code></p>
 
-<p><strong>快捷键</strong> <code>:map ^P  I#&lt;ESC&gt;</code></p></blockquote>
+  
+
+
+<time datetime="2014-10-07T16:40:50+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/07/message-activemq/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/07/cloud-hama/">Cloud Hama</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-07T16:39:50+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/07/cloud-hama/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/07/gis-liblas/">Gis Liblas</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-07T16:36:11+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/07/gis-liblas/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/07/gis-metacrs/">Gis Metacrs</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-07T16:35:58+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/07/gis-metacrs/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
 </div>
   
   
@@ -738,7 +461,7 @@ beego.AutoRouter()</p>
  <h1>分类目录</h1>
  <ul id="categories">
 	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
-<li class='category'><a href='/blog/categories/go/'>go (4)</a></li>
+<li class='category'><a href='/blog/categories/go/'>go (8)</a></li>
 <li class='category'><a href='/blog/categories/iot/'>iot (1)</a></li>
 <li class='category'><a href='/blog/categories/latex/'>latex (3)</a></li>
 <li class='category'><a href='/blog/categories/markdown/'>markdown (1)</a></li>
@@ -753,23 +476,23 @@ beego.AutoRouter()</p>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/10/06/latex-layout/">Latex 版面设计</a>
+        <a href="/blog/2014/10/07/gis-visualization-protovis/">gis visualization protovis</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/10/06/latex-sublime-env/">Latex+Sublime+windows开发环境配置</a>
+        <a href="/blog/2014/10/07/gis-visualization-d3/">gis visualization d3</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/10/06/golang-goconvey/">GoConvey使用说明</a>
+        <a href="/blog/2014/10/07/gis-visualization-cartodb/">gis visualization cartodb</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/09/30/golang-goweb/">Go语言Web程序开发</a>
+        <a href="/blog/2014/10/07/message-agent-jade/">message agent jade</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/09/30/golang-xorm/">golang xorm</a>
+        <a href="/blog/2014/10/07/message-zeromq/">message zeromq</a>
       </li>
     
   </ul>

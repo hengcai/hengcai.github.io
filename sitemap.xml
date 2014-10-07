@@ -3,6 +3,614 @@
   
   
   <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-visualization-protovis/</loc>
+    
+    <lastmod>2014-10-07T16:42:25+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-visualization-d3/</loc>
+    
+    <lastmod>2014-10-07T16:42:00+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-visualization-cartodb/</loc>
+    
+    <lastmod>2014-10-07T16:41:56+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/message-agent-jade/</loc>
+    
+    <lastmod>2014-10-07T16:41:18+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/message-zeromq/</loc>
+    
+    <lastmod>2014-10-07T16:41:08+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/message-rabbitmq/</loc>
+    
+    <lastmod>2014-10-07T16:40:59+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/message-activemq/</loc>
+    
+    <lastmod>2014-10-07T16:40:50+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-hama/</loc>
+    
+    <lastmod>2014-10-07T16:39:50+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-liblas/</loc>
+    
+    <lastmod>2014-10-07T16:36:11+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-metacrs/</loc>
+    
+    <lastmod>2014-10-07T16:35:58+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-viking/</loc>
+    
+    <lastmod>2014-10-07T16:35:14+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-r-spatial/</loc>
+    
+    <lastmod>2014-10-07T16:34:57+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-osgearth/</loc>
+    
+    <lastmod>2014-10-07T16:34:24+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-otb/</loc>
+    
+    <lastmod>2014-10-07T16:33:39+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-ossim/</loc>
+    
+    <lastmod>2014-10-07T16:33:26+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-xnavigator/</loc>
+    
+    <lastmod>2014-10-07T16:32:02+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-s2geometry/</loc>
+    
+    <lastmod>2014-10-07T16:30:23+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-rasdaman/</loc>
+    
+    <lastmod>2014-10-07T16:29:19+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-gpsdrive/</loc>
+    
+    <lastmod>2014-10-07T16:28:25+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-maptiler/</loc>
+    
+    <lastmod>2014-10-07T16:27:54+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-osm/</loc>
+    
+    <lastmod>2014-10-07T16:27:42+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-mapnik/</loc>
+    
+    <lastmod>2014-10-07T16:27:37+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-proj4/</loc>
+    
+    <lastmod>2014-10-07T16:27:19+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-poj4/</loc>
+    
+    <lastmod>2014-10-07T16:27:14+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-jts/</loc>
+    
+    <lastmod>2014-10-07T16:26:46+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-geokettle/</loc>
+    
+    <lastmod>2014-10-07T16:26:28+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-pgrouting/</loc>
+    
+    <lastmod>2014-10-07T16:26:15+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-geoserver/</loc>
+    
+    <lastmod>2014-10-07T16:25:56+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-udig/</loc>
+    
+    <lastmod>2014-10-07T16:25:21+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-qgis/</loc>
+    
+    <lastmod>2014-10-07T16:25:16+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-postgis/</loc>
+    
+    <lastmod>2014-10-07T16:24:54+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-gdal/</loc>
+    
+    <lastmod>2014-10-07T16:24:46+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-geotools/</loc>
+    
+    <lastmod>2014-10-07T16:24:38+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/gis-geos/</loc>
+    
+    <lastmod>2014-10-07T16:24:22+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/search-solr/</loc>
+    
+    <lastmod>2014-10-07T16:23:47+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/search-heritrix/</loc>
+    
+    <lastmod>2014-10-07T16:22:30+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/search-lucene/</loc>
+    
+    <lastmod>2014-10-07T16:22:08+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/search-elasticsearch/</loc>
+    
+    <lastmod>2014-10-07T16:21:17+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/search-nutch/</loc>
+    
+    <lastmod>2014-10-07T16:20:59+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/nlp-ner/</loc>
+    
+    <lastmod>2014-10-07T16:18:57+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-splunk/</loc>
+    
+    <lastmod>2014-10-07T16:16:52+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-spark/</loc>
+    
+    <lastmod>2014-10-07T16:16:37+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/web-openlayers/</loc>
+    
+    <lastmod>2014-10-07T16:15:58+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/web-jquery/</loc>
+    
+    <lastmod>2014-10-07T16:15:51+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/web-bootstrap/</loc>
+    
+    <lastmod>2014-10-07T16:15:45+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-postgresql/</loc>
+    
+    <lastmod>2014-10-07T16:15:20+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-mysql/</loc>
+    
+    <lastmod>2014-10-07T16:15:06+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-ml-mahout/</loc>
+    
+    <lastmod>2014-10-07T16:14:28+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-splenk/</loc>
+    
+    <lastmod>2014-10-07T16:14:17+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-storm/</loc>
+    
+    <lastmod>2014-10-07T16:14:08+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/cloud-hadoop/</loc>
+    
+    <lastmod>2014-10-07T16:13:59+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/java-db-derby/</loc>
+    
+    <lastmod>2014-10-07T16:12:16+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/java-db-h2/</loc>
+    
+    <lastmod>2014-10-07T16:12:09+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/java-db-hsqldb/</loc>
+    
+    <lastmod>2014-10-07T16:12:00+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-memcached/</loc>
+    
+    <lastmod>2014-10-07T16:10:55+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-redis/</loc>
+    
+    <lastmod>2014-10-07T16:10:25+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-berkeleydb/</loc>
+    
+    <lastmod>2014-10-07T16:10:08+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-secondo/</loc>
+    
+    <lastmod>2014-10-07T16:09:10+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/java-db-neo4j/</loc>
+    
+    <lastmod>2014-10-07T16:09:00+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-mongodb/</loc>
+    
+    <lastmod>2014-10-07T16:08:47+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-hyperleveldb/</loc>
+    
+    <lastmod>2014-10-07T16:08:22+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-rocksdb/</loc>
+    
+    <lastmod>2014-10-07T16:03:29+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-leveldb/</loc>
+    
+    <lastmod>2014-10-07T16:03:21+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/c-slash-c-plus-plus-db-lmdb/</loc>
+    
+    <lastmod>2014-10-07T16:02:16+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-boltdb/</loc>
+    
+    <lastmod>2014-10-07T16:01:07+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-cockroach/</loc>
+    
+    <lastmod>2014-10-07T15:59:54+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-goleveldb/</loc>
+    
+    <lastmod>2014-10-07T15:59:30+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-seriesly/</loc>
+    
+    <lastmod>2014-10-07T15:58:49+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-ledisdb/</loc>
+    
+    <lastmod>2014-10-07T15:58:35+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-influxdb/</loc>
+    
+    <lastmod>2014-10-07T15:58:26+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-cayley/</loc>
+    
+    <lastmod>2014-10-07T15:58:17+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-db-xuncache/</loc>
+    
+    <lastmod>2014-10-07T15:57:59+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-gommap/</loc>
+    
+    <lastmod>2014-10-07T15:51:45+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-mgo/</loc>
+    
+    <lastmod>2014-10-07T15:51:13+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-gobson/</loc>
+    
+    <lastmod>2014-10-07T15:50:46+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/10/07/golang-gogeos/</loc>
+    
+    <lastmod>2014-10-07T15:49:35+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://hengcai.github.io/blog/2014/10/06/latex-layout/</loc>
     
     <lastmod>2014-10-06T19:44:18+08:00</lastmod>
@@ -125,21 +733,21 @@
   
   <url>
     <loc>http://hengcai.github.io/</loc>
-    <lastmod>2014-10-06T23:17:10+08:00</lastmod>
+    <lastmod>2014-10-07T16:50:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://hengcai.github.io/blog/archives/</loc>
-    <lastmod>2014-10-06T23:17:10+08:00</lastmod>
+    <lastmod>2014-10-07T16:50:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://hengcai.github.io/about/</loc>
-    <lastmod>2014-10-06T23:17:10+08:00</lastmod>
+    <lastmod>2014-10-07T16:50:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
