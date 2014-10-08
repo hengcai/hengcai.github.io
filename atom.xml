@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-07T17:15:27+08:00</updated>
+  <updated>2014-10-08T23:25:43+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,159 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[r spatial]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-spatial/"/>
+    <updated>2014-10-08T23:23:39+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-spatial</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r gis]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-gis/"/>
+    <updated>2014-10-08T23:23:34+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-gis</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r hmm]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-hmm/"/>
+    <updated>2014-10-08T23:22:50+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-hmm</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r crf]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-crf/"/>
+    <updated>2014-10-08T23:22:46+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-crf</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r svm]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-svm/"/>
+    <updated>2014-10-08T23:22:40+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-svm</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r ann]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-ann/"/>
+    <updated>2014-10-08T23:22:36+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-ann</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r stat]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-stat/"/>
+    <updated>2014-10-08T23:22:04+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-stat</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r weka]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-weka/"/>
+    <updated>2014-10-08T23:21:54+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-weka</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r library lattice]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-library-lattice/"/>
+    <updated>2014-10-08T23:21:33+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-library-lattice</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r library ggplot2]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-library-ggplot2/"/>
+    <updated>2014-10-08T23:21:26+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-library-ggplot2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r association]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-association/"/>
+    <updated>2014-10-08T23:20:36+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-association</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r timeseries]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-timeseries/"/>
+    <updated>2014-10-08T23:20:07+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-timeseries</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r clasify]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-clasify/"/>
+    <updated>2014-10-08T23:19:38+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-clasify</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[r cluster]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/r-cluster/"/>
+    <updated>2014-10-08T23:19:02+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/r-cluster</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[golang mpi]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/07/golang-mpi/"/>
+    <updated>2014-10-07T17:33:08+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/07/golang-mpi</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[golang opencl]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/07/golang-opencl/"/>
+    <updated>2014-10-07T17:31:05+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/07/golang-opencl</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[golang cuda]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/07/golang-cuda/"/>
+    <updated>2014-10-07T17:29:01+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/07/golang-cuda</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[golang cef]]></title>
@@ -36,159 +189,6 @@
     <link href="http://hengcai.github.io/blog/2014/10/07/gis-visualization-d3/"/>
     <updated>2014-10-07T16:42:00+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/07/gis-visualization-d3</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis visualization cartodb]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-visualization-cartodb/"/>
-    <updated>2014-10-07T16:41:56+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-visualization-cartodb</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[message agent jade]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/message-agent-jade/"/>
-    <updated>2014-10-07T16:41:18+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/message-agent-jade</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[message zeromq]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/message-zeromq/"/>
-    <updated>2014-10-07T16:41:08+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/message-zeromq</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[message rabbitmq]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/message-rabbitmq/"/>
-    <updated>2014-10-07T16:40:59+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/message-rabbitmq</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[message activemq]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/message-activemq/"/>
-    <updated>2014-10-07T16:40:50+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/message-activemq</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[cloud hama]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/cloud-hama/"/>
-    <updated>2014-10-07T16:39:50+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/cloud-hama</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis liblas]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-liblas/"/>
-    <updated>2014-10-07T16:36:11+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-liblas</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis metacrs]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-metacrs/"/>
-    <updated>2014-10-07T16:35:58+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-metacrs</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis viking]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-viking/"/>
-    <updated>2014-10-07T16:35:14+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-viking</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis r spatial]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-r-spatial/"/>
-    <updated>2014-10-07T16:34:57+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-r-spatial</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis osgearth]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-osgearth/"/>
-    <updated>2014-10-07T16:34:24+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-osgearth</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis otb]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-otb/"/>
-    <updated>2014-10-07T16:33:39+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-otb</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis ossim]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-ossim/"/>
-    <updated>2014-10-07T16:33:26+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-ossim</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis xnavigator]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-xnavigator/"/>
-    <updated>2014-10-07T16:32:02+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-xnavigator</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis s2geometry]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-s2geometry/"/>
-    <updated>2014-10-07T16:30:23+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-s2geometry</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis rasdaman]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-rasdaman/"/>
-    <updated>2014-10-07T16:29:19+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-rasdaman</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis gpsdrive]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-gpsdrive/"/>
-    <updated>2014-10-07T16:28:25+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-gpsdrive</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
