@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-08T23:25:43+08:00</updated>
+  <updated>2014-10-14T11:55:47+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -14,181 +14,409 @@
 
   
   <entry>
-    <title type="html"><![CDATA[r spatial]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-spatial/"/>
-    <updated>2014-10-08T23:23:39+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-spatial</id>
+    <title type="html"><![CDATA[谈一谈地理本体与地理知识图的区别与联系]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/14/research-geotext-ontology-graph/"/>
+    <updated>2014-10-14T11:02:05+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/14/research-geotext-ontology-graph</id>
+    <content type="html"><![CDATA[<h3>简述</h3>
+
+<p>近年知识的相关研究越来越重要，从数据&ndash;>信息&ndash;>知识是通用的研究体系，各个领域的专家学者，不论是数据科学家、计算机学者、地理学者，都尝试在发挥数据价值方面进行努力。所以出现了很多名词概念是具有模糊性的：</p>
+
+<blockquote><p><code>知识库</code>、<code>专家知识库</code>、<code>地理知识图谱</code>、<code>地理知识图</code>、<code>地理本体</code>、<code>地理语义网</code>、<code>地理问答</code>、<code>地理智能</code>、<code>地理设计</code>、<code>地理服务</code>等，可能以上这些概念不是在一个层次上的，但是都或多或少涉及到知识。</p></blockquote>
+
+<p>具有争议的结论：</p>
+
+<blockquote><p>感觉整个地理学者在这方面研究的方向值得商榷，地理学者喜欢从机理去解释现象，认为专家的就是权威的。所以很多本体知识的构建，寄希望于专家领域知识。<strong>本体</strong>是关于知识的知识，可以作为元知识，但是这个任务的构建应该交给使用者来决定，而不是专家所决定的。举例海洋本体构建来说，估计没有人敢拍胸脯说自己构建的本体是最权威的，所列举的海洋知识是最权威的，只能说服务于某个很小的方向上是可行的。说到底，这个工作不应该有专家来决定。<strong>地理知识图</strong>的方向可能更值得推荐，也可以说地理知识图是一种数据驱动的方法，将元知识的构建交给使用者，专家的作用是利用统计、计算机等专家知识进行挖掘、总结、归纳，挖掘数据中所蕴涵的知识，提升数据价值。</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[石坚论坛-Kwan教授报告]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/14/research-forum-kwanmeipo20121009/"/>
+    <updated>2014-10-14T11:01:31+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/14/research-forum-kwanmeipo20121009</id>
+    <content type="html"><![CDATA[<h3>可变空间单元问题(MAUP)</h3>
+
+<h3>地理环境不确定问题(UGCoP)</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2014年中国地理信息学会学术年会总结]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/14/research-conference-gis20141011-12/"/>
+    <updated>2014-10-14T11:00:16+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/14/research-conference-gis20141011-12</id>
+    <content type="html"><![CDATA[<h1><strong>会议记录（2014年10月11日-12日），中国矿业大学，江苏徐州</strong></h1>
+
+<h2>中国地理信息科学2014年学术年会</h2>
+
+<blockquote><p><strong>主办单位</strong></p>
+
+<p> 中国地理信息产业协会理论与方法工作委员会</p>
+
+<p><strong>承办单位</strong></p>
+
+<p> 中国矿业大学</p>
+
+<p> 江苏省资源与环境信息工程重点实验室</p></blockquote>
+
+<h3><strong>会议开幕</strong></h3>
+
+<blockquote><p>主席台专家：<strong>张爱淑、史照良、汪云甲、陆锋、李清泉、龚健雅、李德仁、郭华东、郭仁忠、汤海、吴立新、陈曦</strong></p></blockquote>
+
+<hr />
+
+<h3>会议日程及比较期待专题</h3>
+
+<p>整个会议日程： <a href="">会议安排</a></p>
+
+<p>期待专题：</p>
+
+<blockquote><ul>
+<li>10月11日上午  大会主题报告</li>
+<li>10月11日下午  专题1 空间认知与定性地理信息表达  主持人：刘瑜，杜清运，综合楼303</li>
+<li>10月11日下午  专题4 数据挖掘与空间规律  主持人：刘学军、乐阳，综合楼104</li>
+<li>10月12日上午  专题3 数据挖掘与知识发现   主持人：邓敏，裴韬  综合楼101</li>
+<li>10月12日下午  专题9 大数据与云计算  主持人：闾国年，杨坤  综合楼102</li>
+<li>10月12日下午  周成虎院士报告  15:10&ndash;15:50</li>
+</ul>
+</blockquote>
+
+<h3>(大会主题报告)郭仁忠院士：  地图表达的多元化和连续性问题</h3>
+
+<blockquote><ol>
+<li>非专业人士绘制的专业地图引出对地图的表达方式的讨论</li>
+<li>信息空间的数字自由，约束解除，二维&ndash;>三维 显示&ndash;>虚拟 分级&ndash;>连续 写真&ndash;>写意 预制&ndash;>实时 静态&ndash;>动态</li>
+<li>多元化：不仅仅是地图，不仅仅传输地理信息；连续性：时间的连续、尺度的连续、抽象的程度</li>
+<li>地图学：新地图学或类地图学</li>
+</ol>
+</blockquote>
+
+<p>个人一点感悟</p>
+
+<blockquote><p>以地图为载体，地理信息是很好的空间索引架构，也是我们课题组在Nextmap正在从事的工作，Rich POI+ UGC， 如地点上的淘宝，都是很很好的体现，设想一下，OSM的地图数据已经足够丰富，国家的基础地理信息也足够丰富, 下一代地图研究该何去何从？</p></blockquote>
+
+<h3>(大会主题报告) 长江学者 董文杰老师： 气候变化：人类社会的历史责任与义务</h3>
+
+<ol>
+<li>人类活动对气候变化的影响，通过模拟人类活动与真实气候数据，表明人类活动影响很大，IPCC结论，人类活动对最近有重要的作用</li>
+<li>人类活动影响究竟多大，1990  1995  2001  2007 2012</li>
+<li>全球碳循环+ 大气成分（辐射分支 辐射收支）</li>
+<li>研究进程</li>
+<li>发展中国家历史责任</li>
+<li>实验设计，结论，发展中国家排放责任占三分一，但是按照现在的减排措施，发展中国家要承担三分之二责任</li>
+<li>国际贸易带来的排放转移问题</li>
+<li>实验设计</li>
+<li>结论：推动</li>
+</ol>
+
+
+<h3>(大会主题报告) 杰青 张兵：高光谱技术的前沿与未来</h3>
+
+<blockquote><ol>
+<li>遥感：遥远的感知，以更加宽广的视角，电子科技、空间科技、计算机技术  1962年第一届国际环境遥感大会，Remote Sensing的感知</li>
+<li>看图识字，物理化学特性观测，高光谱遥感</li>
+<li>光学遥感历史，全色遥感，彩色遥感，多光谱遥感，高光谱遥感，</li>
+<li>高光谱成像技术，光谱学+成像技术==成像光谱学</li>
+<li>关键技术：探测技术，光学分析技术，</li>
+<li>成像技术：摆扫成像光谱仪</li>
+<li>高光谱图像处理技术</li>
+<li>预处理：辐射 光谱 几何 ；  地物波普特性，地形影响，大气，光谱分析</li>
+<li>三大核心解决问题：高光谱图像混合像元分解、图像分类问题、高性能计算问题</li>
+<li>近20年来，雷达遥感，高光谱遥感作为遥感领域的两个前沿</li>
+<li>高光谱图像分类与混合像元分解研究占高光谱遥感SCIE20%</li>
+<li>分解技术：有限空间分辨率与地物制度之间的矛盾，</li>
+<li>分解技术：端元提取：确定像元里的地物种类；丰都反演：确定每种地物所占比例</li>
+<li>分解技术：高光谱图像在混合像元分解具有重要的优势</li>
+<li> 代数几何模型&ndash;》非线性  群智能算法，PSO（粒子群优化算法）  ACO（蚁群优化算法）</li>
+<li> 基于正太组分模型 分解模型</li>
+<li>图像分类：高光谱图像分类 Hughes现象  光谱异质性  空间信息的综合</li>
+<li>图像分类技术：高光谱与GIS数据结合的图像分类，通过三层递进判别模式，判定混合地图与变化地块，大大提高高光谱分类</li>
+<li>自适应支持向量机马尔科夫随机场模型，</li>
+<li>非监督邻域</li>
+<li>超像元马尔科夫随机场模型</li>
+<li>研究发展趋势：面向小样本问题，多特征融合</li>
+<li>高性能计算：多核并行化的 高性能处理器的发展，GPU技术</li>
+<li>智能高光谱遥感卫星技术</li>
+<li>高光谱提供了精细的波普信息，但从地物惊喜识别信息快速提取，地表参数反演都存在瓶颈问题。</li>
+<li>美国战术小卫星：</li>
+<li>1，面向对象的光盘成像自适应变化，2，星上实时信息提取与快速分发技术</li>
+</ol>
+</blockquote>
+
+<h3>(大会主题报告) 景宁：高性能地理信息系统技术与应用</h3>
+
+<blockquote><ol>
+<li>汇报目录：GIS发展，高性能GIS  HiGIS  应用模式</li>
+<li>IGS发展与挑战：时空大数据组织管理，关联分析处理，在线实时服务等应用模式，新趋势：结合高性能计算</li>
+<li>地理信息处理的计算规模与负责性急剧增大，数据密集+IO密集增加+计算密集+通信息密集，</li>
+<li>大数据对挑战：数据量与数据量带来的挑战；海量地理空间数据，相互关联，结构负责，；应用带来高并发</li>
+<li>挑战1：数据组织，传统方法，数据的挑战，数据来源，数据实时接入，</li>
+<li>挑战2：处理复杂性挑战，数据量大，时空关联性强，计算扩展提出更高的要求，实时性、、动态性能提出要求</li>
+<li>挑战3：地理信息快速可视化挑战，多终端的高效绘制，多用户的 交互协同</li>
+<li>挑战4：地理信息开放式服务挑战：多用，高并发，实时、动态要求高，UGI、VGI信息提高</li>
+<li>传统GIS难以应对这些挑战，：数据+计算+可视化+应用，==》越来越多的超出的桌面GIS的能力</li>
+<li>制图可视化+开放式服务+高性能处理+大规模数据，单机处理达到极限，传统GIS没有充分利用计算机软硬件能力</li>
+<li>机遇：多核+网格+云计算+计算能力们不断提升，研发高性能GISd出发点</li>
+<li>主要的技术路线：高性能GIS（服务器），CUDAGIS（桌面）  网格GIS（服务器），</li>
+<li>要解决的问题：提高求解问题规模；加速求解问题的速度，：》并行计算技术</li>
+<li>并行条件：数据并行+计算并行+IO并行</li>
+<li>基本要求：处理的数据类型是多样的，处理是要高性能的，终端多样化，规模可伸缩，处理的数据规模大处理的效率高</li>
+<li>阻碍高性能地理计算的两个因素，缺少并行的GIS算法库，</li>
+<li>硬件+技术+软件+平台</li>
+<li>国家863项目主题项目：</li>
+<li>HiGIS： 基于高性能计算架构的新型地理系统瓶体，采用可扩展并行处理架构</li>
+</ol>
+</blockquote>
+
+<h3>(大会主题报告) 企业之星 张杨：对信息化测绘的思考  武汉吉威数源</h3>
+
+<blockquote><ol>
+<li>传统测绘&ndash;》现代测绘，模拟测绘&ndash;》计息测绘&ndash;》数字化测绘&ndash;》信息化测绘</li>
+</ol>
+</blockquote>
+
+<hr />
+
+<h1>(专题报告) 信息服务与导航定位</h1>
+
+<h3>1.  余丽：开放文本无监督地理实体关系抽取</h3>
+
+<h3>2.  沈平：一种主动发现地理信息服务的网络爬虫</h3>
+
+<h3>3.  杨腾飞：基于CRF的地理实体识别</h3>
+
+<h3>4.  凌如鹏：地理信息服务语义标注关键技术与应用探讨</h3>
+
+<hr />
+
+<h1>(专题报告) 空间认知与定性地理信息表达</h1>
+
+<h3>1.  张雪英：面向中文文本的地理信息资源挖掘与利用</h3>
+
+<ol>
+<li>事件：人们认识和理解世界的基本单位，基本要素：事件、空间和主题；关联关系：互联网信息的脉络</li>
+<li>技术路线：信息聚合、规范化表达、信息抽取、语义关系识别、可视化表达、事件演化规律</li>
+<li>时空架构语言特征</li>
+<li>标注语料库，语义的解析模型，基于规则模型的时间信息抽取，基于CRF的地名地理实体，时间地理学过程，实例验证，面向网络文本时间属性抽取</li>
+<li>研究内容：中文时空与属性信息规范化表达，时间时空与属性信息抽取，事件时空与属性信息规范化表达</li>
+<li>时间时空与属性信息的规范化表达，时间信息标注</li>
+</ol>
+
+
+<blockquote><p>1, 研究问题，，如何识别一个地理事件，除了汶川地震、灾害，这样比较典型的事件，其他的事件如何界定
+2，地理实体标注语料库、地理实体关系标注语料库的级别，地理事件语料库，10多万</p></blockquote>
+
+<h3>2.  张毅：基于社交媒体理解旅游目的地的空间结构</h3>
+
+<h1>(专题报告)城市轨迹数据分析与挖掘</h1>
+
+<h3>1.  乐阳：城市活动轨迹数据分析与挖掘</h3>
+
+<blockquote><ol>
+<li>提纲  轨迹轨迹挖掘回归；识别有意义的点；点之间是如何移动</li>
+<li>轨迹数据文章推荐</li>
+<li>轨迹数据</li>
+<li>交通调查数据，GPS数据 智能卡数据、移动对象数据、社交媒体数据 、手机信令数据</li>
+<li>GPS：Travel</li>
+<li>Smart Card :</li>
+<li>MObile Phone Data :</li>
+<li>Social Media: 微博数据  geotag checkin;</li>
+<li>机遇：GIS与地理领域用来解决地学问题、</li>
+<li>挑战：数据隐私；数据共享；数据模型；数据代表性</li>
+<li> The New Science of Cities: Michael Batty</li>
+<li> 数据的不确定性；大数据的不确定性</li>
+<li> 案例</li>
+<li>案例</li>
+<li> 可变面元问题  UGCOP  地理情景不确定性问题</li>
+<li> 空间分析单元的 基本定义</li>
+<li> 人类移动</li>
+</ol>
+</blockquote>
+
+<hr />
+
+<h3>(大会主题报告) 周成虎：创新GIS</h3>
+
+<h4>个人主要的科研工作</h4>
+
+<p>地理学、地理信息系统，遥感</p>
+
+<h6>##（一）遥感地理学理解理论，遥感地学智能分析计算方法</h6>
+
+<p>建立遥感地学内容的理解认知模型与影响综合分析计算模型</p>
+
+<p>定性的计算分析模型  像元&ndash;基元&ndash;目标，</p>
+
+<p>1.2 建立了系列地标环境与灾害遥感信息模型</p>
+
+<p>模型方法得到广泛应用与科学验证</p>
+
+<p>洪灾与滑坡模型，芦山地震灾区此生地址灾害评价与对策建议</p>
+
+<h6>#（二）中国地貌数值分类系统和地貌实体定量解析模型</h6>
+
+<p>中国的景观图谱研究</p>
+
+<p>2.2 发展了全数字化地貌综合解析技术方法</p>
+
+<h5>（三）基于椭球的地理格网理论方法与海洋GIS研究</h5>
+
+<hr />
+
+<blockquote><p>没有整理完，&hellip;&hellip;.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[matlab case40]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case40/"/>
+    <updated>2014-10-08T23:34:32+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case40</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r gis]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-gis/"/>
-    <updated>2014-10-08T23:23:34+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-gis</id>
+    <title type="html"><![CDATA[matlab case39]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case39/"/>
+    <updated>2014-10-08T23:34:29+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case39</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r hmm]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-hmm/"/>
-    <updated>2014-10-08T23:22:50+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-hmm</id>
+    <title type="html"><![CDATA[matlab case38]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case38/"/>
+    <updated>2014-10-08T23:34:26+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case38</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r crf]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-crf/"/>
-    <updated>2014-10-08T23:22:46+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-crf</id>
+    <title type="html"><![CDATA[matlab case37]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case37/"/>
+    <updated>2014-10-08T23:34:23+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case37</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r svm]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-svm/"/>
-    <updated>2014-10-08T23:22:40+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-svm</id>
+    <title type="html"><![CDATA[matlab case36]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case36/"/>
+    <updated>2014-10-08T23:34:20+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case36</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r ann]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-ann/"/>
-    <updated>2014-10-08T23:22:36+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-ann</id>
+    <title type="html"><![CDATA[matlab case35]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case35/"/>
+    <updated>2014-10-08T23:34:17+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case35</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r stat]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-stat/"/>
-    <updated>2014-10-08T23:22:04+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-stat</id>
+    <title type="html"><![CDATA[matlab case34]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case34/"/>
+    <updated>2014-10-08T23:34:14+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case34</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r weka]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-weka/"/>
-    <updated>2014-10-08T23:21:54+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-weka</id>
+    <title type="html"><![CDATA[matlab case33]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case33/"/>
+    <updated>2014-10-08T23:34:10+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case33</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r library lattice]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-library-lattice/"/>
-    <updated>2014-10-08T23:21:33+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-library-lattice</id>
+    <title type="html"><![CDATA[matlab case32]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case32/"/>
+    <updated>2014-10-08T23:32:19+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case32</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r library ggplot2]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-library-ggplot2/"/>
-    <updated>2014-10-08T23:21:26+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-library-ggplot2</id>
+    <title type="html"><![CDATA[matlab case31]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case31/"/>
+    <updated>2014-10-08T23:32:16+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case31</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r association]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-association/"/>
-    <updated>2014-10-08T23:20:36+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-association</id>
+    <title type="html"><![CDATA[matlab case30]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case30/"/>
+    <updated>2014-10-08T23:32:13+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case30</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r timeseries]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-timeseries/"/>
-    <updated>2014-10-08T23:20:07+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-timeseries</id>
+    <title type="html"><![CDATA[matlab case29]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case29/"/>
+    <updated>2014-10-08T23:32:09+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case29</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r clasify]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-clasify/"/>
-    <updated>2014-10-08T23:19:38+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-clasify</id>
+    <title type="html"><![CDATA[matlab case28]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case28/"/>
+    <updated>2014-10-08T23:32:06+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case28</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[r cluster]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/r-cluster/"/>
-    <updated>2014-10-08T23:19:02+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/r-cluster</id>
+    <title type="html"><![CDATA[matlab case27]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case27/"/>
+    <updated>2014-10-08T23:32:03+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case27</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[golang mpi]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/golang-mpi/"/>
-    <updated>2014-10-07T17:33:08+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/golang-mpi</id>
+    <title type="html"><![CDATA[matlab case26]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case26/"/>
+    <updated>2014-10-08T23:32:00+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case26</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[golang opencl]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/golang-opencl/"/>
-    <updated>2014-10-07T17:31:05+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/golang-opencl</id>
+    <title type="html"><![CDATA[matlab case25]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case25/"/>
+    <updated>2014-10-08T23:31:57+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case25</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[golang cuda]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/golang-cuda/"/>
-    <updated>2014-10-07T17:29:01+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/golang-cuda</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[golang cef]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/golang-cef/"/>
-    <updated>2014-10-07T17:14:59+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/golang-cef</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis visualization protovis]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-visualization-protovis/"/>
-    <updated>2014-10-07T16:42:25+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-visualization-protovis</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gis visualization d3]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/07/gis-visualization-d3/"/>
-    <updated>2014-10-07T16:42:00+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/07/gis-visualization-d3</id>
+    <title type="html"><![CDATA[matlab case24]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case24/"/>
+    <updated>2014-10-08T23:31:54+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case24</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
