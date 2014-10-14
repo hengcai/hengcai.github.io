@@ -5,12 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Go语言环境配置 - GIS行迹</title>
+  <title>Go语言基础知识 - GIS行迹</title>
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="Windows环境配置 Linux环境配置
-">
+  <meta name="description" content="1. Go介绍 新的编程模型csp，在语言层面进行并发，而不是在操作系统级别，类似于Erlang比较推崇
+Go并发模型：Goroutine channel RPC 内存模型
+goroutine 间并行的，底层混合使用飞阻塞IO和线程，通过通信来共享，不是通过共享来通信
+Channel的读写是阻塞的 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,7 +71,7 @@
   
   <header>
     
-      <h1 class="entry-title">Go语言环境配置</h1>
+      <h1 class="entry-title">Go语言基础知识</h1>
     
     
       <p class="meta">
@@ -94,9 +96,44 @@
   </header>
 
 
-<div class="entry-content"><h4>Windows环境配置</h4>
+<div class="entry-content"><h3>1. Go介绍</h3>
 
-<h3>Linux环境配置</h3>
+<blockquote><ul>
+<li>新的编程模型csp，在语言层面进行并发，而不是在操作系统级别，类似于Erlang比较推崇</li>
+<li>Go并发模型：<code>Goroutine</code>   <code>channel</code>  <code>RPC</code>  <code>内存模型</code></li>
+<li>goroutine 间并行的，底层混合使用飞阻塞IO和线程，通过通信来共享，不是通过共享来通信</li>
+<li>Channel的读写是阻塞的，传值、同步</li>
+<li>Go的包package里面都有一个init函数，在main执行之前，需要执行所有的package的init函数，但是执行顺序不确定</li>
+<li>GO的值与引用，值类型创建，基本数据类型，<code>maps</code>、<code>slice</code>、<code>channel</code>具有引用语义类型必须用<code>make</code>创建</li>
+<li>指针类型但是不支持指针运算</li>
+<li>go语言在语法层面与Slice类似，但是指针数组的概念</li>
+<li>枚举 <code>itoa</code></li>
+<li>GO比较新支持特性，<code>闭包</code>、<code>Lambda</code>  <code>自动赋值:=</code>  <code>Concept</code>利用<code>Interface</code>实现 <code>GC</code></li>
+<li>go的包管理，<code>C</code>、<code>os</code>,golang的词法语法分析库<code>ast</code>, 网络库<code>websocket</code></li>
+</ul>
+</blockquote>
+
+<h3>2. Go环境配置</h3>
+
+<h5>2.2 Windows环境配置</h5>
+
+<h5>2.2 Linux环境配置</h5>
+
+<h3>3. Go 主要的资源汇总</h3>
+
+<blockquote><ol>
+<li><a href="http://code.google.com/p/golang-china/">go语言中文文档</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMTY4Mzk5NTc2.html">视频资源</a></li>
+<li><a href="http://u.youku.com/user_show/uid_golangchina">优酷的golang频道</a></li>
+<li><a href="http://blog.sina.com.cn/wonderfogo">go语言粉丝收集的资源汇总</a></li>
+<li><a href="http://bbs.studygolang.com/forum.php">golang的网上论坛</a></li>
+<li><a href="http://blog.sina.com.cn/s/blog_9736af7d0100wc6z.html">golang 收集比较好的文章</a></li>
+<li><a href="http://www.ucai.cn/course/all?sid=75">优才网 go语言相关资料</a></li>
+<li><a href="">Go，基于连接与组合的语言</a></li>
+<li><a href="http://www.cnblogs.com/yuxingfirst/archive/2012/11/28/2792366.html">GO语言并发之美</a></li>
+<li><a href="http://www.infoq.com/cn/articles/knowledge-behind-goroutine">goroutine背后的系统知识</a></li>
+</ol>
+</blockquote>
 </div>
 
 
