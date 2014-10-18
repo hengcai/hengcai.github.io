@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>SAS基础知识学习 - GIS行迹</title>
+  <meta name="author" content="hengcai">
+
+  
+  <meta name="description" content="1 SAS系统的基本特点 1.1 简介 SAS 是 Statistics Analysis System 统计分析系统是一个模组软件系统，它由多个功能的模组组合而成，其相关软件模组的说明如下： BASE 为统计分析系统的核心模组。提供档案建立、资料撷取、管理、分析和展示的功能。 SAS/ &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://hengcai.github.io/blog/2014/10/17/sas-basic/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="GIS行迹" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">GIS行迹</a></h1>
+  
+    <h2>移动对象管理、移动对象数据挖掘、网络空间信息搜索</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:hengcai.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">SAS基础知识学习</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-17T13:46:35+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>1 SAS系统的基本特点</h3>
+
+<h4>1.1 简介</h4>
+
+<ul>
+<li>SAS 是 Statistics Analysis System</li>
+</ul>
+
+
+<p>统计分析系统是一个模组软件系统，它由多个功能的模组组合而成，其相关软件模组的说明如下：</p>
+
+<ul>
+<li>BASE</li>
+</ul>
+
+
+<p>为统计分析系统的核心模组。提供档案建立、资料撷取、管理、分析和展示的功能。</p>
+
+<ul>
+<li>SAS/ASSIST
+软件为选单式的使用者接口模组。它能够将统计分析系统所提供的各种应用工具，以不用撰写程式的方法，而是以选单的方式去执行各模组的功能。</li>
+<li>SAS/CONNECT
+为协同式及分散式处理模组。它提供将各种不同平台的统计分析系统连结起来，使系统达到资料整合与资源共享的能力。</li>
+<li>SAS/GRAPH
+为制作高分辨率彩色图形模组。可用来产生多种颜色和多种型式的统计图，如：柱形图、圆饼图、点状图、三维图、等高线图和地图等等。</li>
+<li>SAS/ETS
+用来开发及维护主管资讯系统（Executive Information System）的应用系统开发工具。提供时间序列读取、分析、预测和建立计量经济模型等功能。</li>
+<li>SAS/AF
+应用系统开发工具。利用面向对象程式及图形的使用者界面（Graphic User Interface）来开应用系统。以利使用者方便应用SAS内的各项功能。</li>
+<li>SAS/FSP
+为图形使用者接口的资料交谈式工具。以图形接口作为资料登录、编辑、撷取和查询功能。</li>
+<li>SAS/ACCESS
+为和各数据库软件间的资料连结与转换。提供连结的数据库软件为：ORACLE、IBM DB2、MS ACCESS、DBASE、SYBASE、MS SQ、SERVER等等。</li>
+<li>SAS/STAT
+为全面性统计分析方法的工具。提供如回归分析、变异数分析、类别分析、多重变量分析、群集分析、存活分析、PSYCHOMETRICANALYSIS和无母数分析，并有正规化、线型化与非线型化等变量转换的功能。</li>
+<li>SAS/LAB
+以导引方式的进行资料分析的工具。提供统计的假设分析（Assumption），如OUTLIER、NORMAL、SCALING转换等功能，并且可以协助作出结论，而且可将执行过程全部储存，以做为日后分析或报告的参考。</li>
+<li>SAS/EIS
+应用系统开发工具。与SAS/AF不同的是，此模组不需作接口开发，祗要对相关资料作定义即可。</li>
+<li>SAS/IML
+为交谈式的高阶矩阵语言工具。提供高阶的科学、工程和统计上的应用，并具有图形产生及资料展示的功能。
+目前最新的9.3版本，亦支援自由软件统计软件计划R语言，透过其SAS/IML模组，可以有限度相互联结使用，但若要相互使用时，则必需安装R语言软件于SAS系统相同的电脑内。目前相关功能支援如下：
+两软件间的资料格式转换
+呼叫与使用R语言函数功能
+传输由R语言分析结果至SAS内</li>
+<li>SAS/QC
+为统计品管的工具。用于制程分析、实验设计等功能，以选单接口方式，方便使用者快速的得到结果。</li>
+<li>SAS/OR
+为决策支援工具。用于计划管理、线性及非线性规划与资源最佳化分配等功能。</li>
+<li><strong>SAS/GIS</strong>
+即为地理资料的图形系统。</li>
+<li><strong>SAS/WebAF</strong>
+如同SAS/AF般的图形接口开发工具。主要使用于发展于Web上的使用者接口。</li>
+</ul>
+
+
+<h4>1.2 SAS基本概念</h4>
+
+<blockquote><p>SAS系统的三大组成部分:</p></blockquote>
+
+<ol>
+<li>数据步：生成修改输出数据集</li>
+<li>过程步：对数据进行分析</li>
+<li>宏语言：功能模块</li>
+</ol>
+
+
+<blockquote><p>SAS程序的基本组成单位是语句Statement:</p></blockquote>
+
+<ul>
+<li>以关键词开始，以分号结束</li>
+<li>常用SAS语句：data input proc infile</li>
+</ul>
+
+
+<blockquote><p>SAS数据集的结构</p></blockquote>
+
+<p>类似于Matlab的Struct 或者R中的dataframe</p>
+
+<ul>
+<li>每一行代表一个观测，</li>
+<li>每列代表一个变量</li>
+</ul>
+
+
+<blockquote><p>SAS系统的命名规则</p>
+
+<p>SAS变量的属性</p></blockquote>
+
+<ul>
+<li>字符型与数值型两种类型</li>
+<li>变量格式format  与 输入格式 informat 标签对变量的注释与说明，可256字节</li>
+</ul>
+
+
+<blockquote><p>SAS 数据库：SAS文件集合</p></blockquote>
+
+<p>默认的自带数据库：Work Sasuser  SasHelp Maps</p>
+
+<p>自定义SAS数据库：<code>libname  libref 'path'</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>data prob2
+</span><span class='line'>
+</span><span class='line'>input 
+</span><span class='line'>  ID 
+</span><span class='line'>  Height
+</span><span class='line'>  Weight;
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>datalines;
+</span><span class='line'>
+</span><span class='line'>;
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'></span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">hengcai</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-17T13:46:35+08:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ml/'>ml</a>, <a class='category' href='/blog/categories/sas/'>sas</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+  
+  <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share?uid=1970418" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1970418" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/10/15/web-bootstrap/" title="Previous Post: Bootstrap知识学习">&laquo; Bootstrap知识学习</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/10/18/golang-gopherjs/" title="Next Post: GopherJS 库学习">GopherJS 库学习 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+ <h1>分类目录</h1>
+ <ul id="categories">
+	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+<li class='category'><a href='/blog/categories/geotext/'>geotext (1)</a></li>
+<li class='category'><a href='/blog/categories/go/'>go (9)</a></li>
+<li class='category'><a href='/blog/categories/iot/'>iot (1)</a></li>
+<li class='category'><a href='/blog/categories/latex/'>latex (3)</a></li>
+<li class='category'><a href='/blog/categories/markdown/'>markdown (1)</a></li>
+<li class='category'><a href='/blog/categories/matlab/'>matlab (2)</a></li>
+<li class='category'><a href='/blog/categories/ml/'>ml (3)</a></li>
+<li class='category'><a href='/blog/categories/r/'>r (1)</a></li>
+<li class='category'><a href='/blog/categories/research/'>research (4)</a></li>
+<li class='category'><a href='/blog/categories/sas/'>sas (1)</a></li>
+<li class='category'><a href='/blog/categories/vim/'>vim (1)</a></li>
+<li class='category'><a href='/blog/categories/web/'>web (1)</a></li>
+
+ </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/10/18/research-conference-ica/">国际地图学协会 WorkShop  地理所</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/18/golang-gopherjs/">GopherJS 库学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/17/sas-basic/">SAS基础知识学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/15/web-bootstrap/">Bootstrap知识学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/14/research-geotext-ontology-graph/">谈一谈地理本体与地理知识图的区别与联系</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/hengcai">@hengcai</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'hengcai',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos',
+            blacklist: ''
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+﻿<section>
+    <h1>新浪微博</h1>
+    <ul id="weibo">
+    <li>
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1985589877&verifier=79d13760&dpc=1"></iframe>
+
+      </li>
+    </ul>
+</section>﻿<section>
+  <h1>访客地图</h1>
+ <script type="text/javascript" src="//rd.revolvermaps.com/0/0/1.js?i=3ggjuet09mf&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - hengcai -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'hengcai';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://hengcai.github.io/blog/2014/10/17/sas-basic/';
+        var disqus_url = 'http://hengcai.github.io/blog/2014/10/17/sas-basic/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

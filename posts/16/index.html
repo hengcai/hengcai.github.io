@@ -9,14 +9,9 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="简介 数据分析的基本流程 安装 R与RStudio
-Windows Linux OSX R HOME
-RStudio 非常不错的IDE工具，推荐。
-包的管理
-安装 install.packages("name")
-常用命令
-帮助 help.start() help("foo")
-工作空间 &hellip;">
+  <meta name="description" content="写在前面 看到高手用的VIM视频vim，也许会激发学习的动力 1. Vundle配置 注意安装GIT Curl等软件 Clewn常用命令: BundleInstall
+BundleClean
+BundleUpdate 2. GDB配置 Clewn + vimgdb 推荐使用:clewn 3. GO &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +67,277 @@ RStudio 非常不错的IDE工具，推荐。
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/26/vim-basic/">VIM 常用命令</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-26T09:27:53+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/26/vim-basic/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>写在前面</h3>
+
+<p>看到高手用的VIM视频<a href="http://v.youku.com/v_show/id_XNDU4NTQxMjQ0_rss.html">vim</a>，也许会激发学习的动力</p>
+
+<hr />
+
+<h3>1. Vundle配置</h3>
+
+<blockquote><p>注意安装GIT Curl等软件</p></blockquote>
+
+<p><a href="https://github.com/gmarik/Vundle.vim">Clewn</a>常用命令:</p>
+
+<blockquote><ol>
+<li>BundleInstall</li>
+<li>BundleClean</li>
+<li>BundleUpdate</li>
+</ol>
+</blockquote>
+
+<h3>2. GDB配置</h3>
+
+<p>Clewn + vimgdb</p>
+
+<p>推荐使用:<a href="http://clewn.sourceforge.net/">clewn</a></p>
+
+<h3>3. GO、Clojure、Java、Python、C/C++环境支持</h3>
+
+<ol>
+<li>GO语言支持  ， <a href="https://github.com/fatih/vim-go">vim-go</a>插件不错，<a href="http://wuwen.org/article/38/setup-vim-go-dev-environment.html">无闻</a></li>
+<li>CLojure语言支持</li>
+<li>Python支持</li>
+<li>Java语言支持</li>
+</ol>
+
+
+<h3>4. VIM基本命令</h3>
+
+<blockquote><p><strong>插入命令</strong> : <code>**a, i ,o**</code></p>
+
+<p><strong>定位命令</strong> : <code>h, i, j, k,  G, gg, nG,  :n,   f{char},  H,  M,  L,  $  , 0</code></p>
+
+<p><strong>查找替换</strong>: <code>/pattern ?pattern  :s/target/replacement  :%s/target/replacement/g set ic  n1,n2s/target/replacement/g</code></p>
+
+<p><strong>删除命令</strong>* :<code>x  nx dd  dG D  ns,ne d</code></p>
+
+<p><strong>复制粘贴</strong> ： <code>yy Y dd  p P</code></p>
+
+<p><strong>替换</strong>： <code>r R</code></p>
+
+<p><strong>恢复重复</strong> : <code>u U .</code></p>
+
+<p><strong>快捷键</strong> <code>:map ^P  I#&lt;ESC&gt;</code></p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/26/latex-basic/">LaTex入门</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-26T09:27:35+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/26/latex-basic/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>简述</h3>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/26/golang-enviroment/">Go语言基础知识</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-26T09:27:00+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/26/golang-enviroment/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>1. Go介绍</h3>
+
+<blockquote><ul>
+<li>新的编程模型csp，在语言层面进行并发，而不是在操作系统级别，类似于Erlang比较推崇</li>
+<li>Go并发模型：<code>Goroutine</code>   <code>channel</code>  <code>RPC</code>  <code>内存模型</code></li>
+<li>goroutine 间并行的，底层混合使用飞阻塞IO和线程，通过通信来共享，不是通过共享来通信</li>
+<li>Channel的读写是阻塞的，传值、同步</li>
+<li>Go的包package里面都有一个init函数，在main执行之前，需要执行所有的package的init函数，但是执行顺序不确定</li>
+<li>GO的值与引用，值类型创建，基本数据类型，<code>maps</code>、<code>slice</code>、<code>channel</code>具有引用语义类型必须用<code>make</code>创建</li>
+<li>指针类型但是不支持指针运算</li>
+<li>go语言在语法层面与Slice类似，但是指针数组的概念</li>
+<li>枚举 <code>itoa</code></li>
+<li>GO比较新支持特性，<code>闭包</code>、<code>Lambda</code>  <code>自动赋值:=</code>  <code>Concept</code>利用<code>Interface</code>实现 <code>GC</code></li>
+<li>go的包管理，<code>C</code>、<code>os</code>,golang的词法语法分析库<code>ast</code>, 网络库<code>websocket</code></li>
+</ul>
+</blockquote>
+
+<h3>2. Go环境配置</h3>
+
+<h5>2.2 Windows环境配置</h5>
+
+<h5>2.2 Linux环境配置</h5>
+
+<h3>3. Go 主要的资源汇总</h3>
+
+<blockquote><ol>
+<li><a href="http://code.google.com/p/golang-china/">go语言中文文档</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMTY4Mzk5NTc2.html">视频资源</a></li>
+<li><a href="http://u.youku.com/user_show/uid_golangchina">优酷的golang频道</a></li>
+<li><a href="http://blog.sina.com.cn/wonderfogo">go语言粉丝收集的资源汇总</a></li>
+<li><a href="http://bbs.studygolang.com/forum.php">golang的网上论坛</a></li>
+<li><a href="http://blog.sina.com.cn/s/blog_9736af7d0100wc6z.html">golang 收集比较好的文章</a></li>
+<li><a href="http://www.ucai.cn/course/all?sid=75">优才网 go语言相关资料</a></li>
+<li><a href="">Go，基于连接与组合的语言</a></li>
+<li><a href="http://www.cnblogs.com/yuxingfirst/archive/2012/11/28/2792366.html">GO语言并发之美</a></li>
+<li><a href="http://www.infoq.com/cn/articles/knowledge-behind-goroutine">goroutine背后的系统知识</a></li>
+</ol>
+</blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/26/matlab-case1/">MatLab案例学习1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-26T09:26:39+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/26/matlab-case1/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>Matlab与Office文档互操作</h3>
+
+<ol>
+<li>actxcontrol()函数
+
+<blockquote><p>h = actxcontrol(&lsquo;progid&rsquo;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,&lsquo;param1&rsquo;,value1,&hellip;)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;, position,fig_handle)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler)</p>
+
+<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler,&lsquo;filename&rsquo;)</p></blockquote></li>
+</ol>
+
+
+<p>实际应用：</p>
+
+<ol>
+<li>actxserver()函数</li>
+</ol>
+
+
+<blockquote><p>ps:
+tasklist /m **.dll</p></blockquote>
+
+<hr />
+
+<blockquote><p>读书笔记 <strong><em><a href="http://ilovematlab.cn/forum-181-1.html">&lt;&lt;Matlab统计分析与应用:40个案例分析>></a></em></strong></p></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -396,15 +662,17 @@ RStudio 非常不错的IDE工具，推荐。
  <ul id="categories">
 	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
 <li class='category'><a href='/blog/categories/geotext/'>geotext (1)</a></li>
-<li class='category'><a href='/blog/categories/go/'>go (8)</a></li>
+<li class='category'><a href='/blog/categories/go/'>go (9)</a></li>
 <li class='category'><a href='/blog/categories/iot/'>iot (1)</a></li>
 <li class='category'><a href='/blog/categories/latex/'>latex (3)</a></li>
 <li class='category'><a href='/blog/categories/markdown/'>markdown (1)</a></li>
 <li class='category'><a href='/blog/categories/matlab/'>matlab (2)</a></li>
-<li class='category'><a href='/blog/categories/ml/'>ml (2)</a></li>
+<li class='category'><a href='/blog/categories/ml/'>ml (3)</a></li>
 <li class='category'><a href='/blog/categories/r/'>r (1)</a></li>
-<li class='category'><a href='/blog/categories/research/'>research (3)</a></li>
+<li class='category'><a href='/blog/categories/research/'>research (4)</a></li>
+<li class='category'><a href='/blog/categories/sas/'>sas (1)</a></li>
 <li class='category'><a href='/blog/categories/vim/'>vim (1)</a></li>
+<li class='category'><a href='/blog/categories/web/'>web (1)</a></li>
 
  </ul>
 </section>
@@ -413,23 +681,23 @@ RStudio 非常不错的IDE工具，推荐。
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/18/research-conference-ica/">国际地图学协会 WorkShop  地理所</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/18/golang-gopherjs/">GopherJS 库学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/17/sas-basic/">SAS基础知识学习</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/15/web-bootstrap/">Bootstrap知识学习</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/14/research-geotext-ontology-graph/">谈一谈地理本体与地理知识图的区别与联系</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/14/research-forum-kwanmeipo20121009/">石坚论坛-Kwan教授报告</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/14/research-conference-gis20141011-12/">2014年中国地理信息学会学术年会总结</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/08/matlab-case40/">matlab case40</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/08/matlab-case39/">matlab case39</a>
       </li>
     
   </ul>

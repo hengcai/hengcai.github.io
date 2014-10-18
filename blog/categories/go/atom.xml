@@ -4,7 +4,7 @@
   <title><![CDATA[Category: go | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/go/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-14T22:50:52+08:00</updated>
+  <updated>2014-10-18T18:26:33+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GopherJS 库学习]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/18/golang-gopherjs/"/>
+    <updated>2014-10-18T17:51:03+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/18/golang-gopherjs</id>
+    <content type="html"><![CDATA[<p>很强悍的逆袭，这样的趋势go不可阻挡的趋势啊，从后端到前端，都搞定了。</p>
+
+<pre><code class="go">package main
+
+import (    
+    "github.com/gopherjs/gopherjs/js"
+)
+
+func main() {   
+    js.Global.Call("alert", "Good") 
+}
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[gommap库学习]]></title>
@@ -46,52 +66,6 @@
     <updated>2014-10-07T15:49:35+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/07/golang-gogeos</id>
     <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GoConvey使用说明]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/06/golang-goconvey/"/>
-    <updated>2014-10-06T17:20:12+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/06/golang-goconvey</id>
-    <content type="html"><![CDATA[<h4>案例</h4>
-
-<pre><code class="go">
-import (
-    . "github.com/smartystreets/goconvey/convey"
-    "testing"
-)
-
-func TestAdd(t *testing.T) {
-    Convey("两数相加", t, func() {
-        So(Add(1, 2), ShouldEqual, 3)
-    })
-}
-func TestSubtract(t *testing.T) {
-    Convey("subtract ", t, func() {
-        So(Subtract(1, 2), ShouldEqual, -1)
-    })
-}
-func TestMultiply(t *testing.T) {
-    Convey("Muyltipy", t, func() {
-        So(Multipy(3, 2), ShouldEqual, 6)
-
-    })
-}
-func TestDivision(t *testing.T) {
-    Convey("Dicision", t, func() {
-        Convey("被除数 0", func() {
-            _, err := Division(10, 0)
-            So(err, ShouldNotBeNil)
-        })
-        Convey("被除数不为0", func() {
-            num, err := Division(10, 2)
-            So(err, ShouldBeNil)
-            So(num, ShouldEqual, 5)
-        })
-    })
-}
-</code></pre>
 ]]></content>
   </entry>
   
