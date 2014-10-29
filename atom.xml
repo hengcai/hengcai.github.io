@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-18T18:26:33+08:00</updated>
+  <updated>2014-10-29T15:12:44+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ScaLAPACK使用说明]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/29/math-scalapack/"/>
+    <updated>2014-10-29T15:10:17+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/29/math-scalapack</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[国际地图学协会 WorkShop  地理所]]></title>
@@ -57,11 +66,19 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[SAS基础知识学习]]></title>
+    <title type="html"><![CDATA[Sas Basic]]></title>
     <link href="http://hengcai.github.io/blog/2014/10/17/sas-basic/"/>
-    <updated>2014-10-17T13:46:35+08:00</updated>
+    <updated>2014-10-17T00:00:00+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/17/sas-basic</id>
-    <content type="html"><![CDATA[<h3>1 SAS系统的基本特点</h3>
+    <content type="html"><![CDATA[<p>SAS&mdash;
+layout: post
+title: &ldquo;SAS基础知识学习&rdquo;
+date: 2014-10-17 13:46:35 +0800
+comments: true</p>
+
+<h2>categories: sas ml</h2>
+
+<h3>1 SAS系统的基本特点</h3>
 
 <h4>1.1 简介</h4>
 
@@ -176,7 +193,6 @@
 <span class='line-number'>12</span>
 <span class='line-number'>13</span>
 <span class='line-number'>14</span>
-<span class='line-number'>15</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>data prob2
 </span><span class='line'>
 </span><span class='line'>input 
@@ -190,11 +206,12 @@
 </span><span class='line'>;
 </span><span class='line'>
 </span><span class='line'>
-</span><span class='line'>
 </span><span class='line'></span></code></pre></td></tr></table></div></figure>
 
 
+<p>SAS基本模块的使用</p>
 
+<h3>2 SAS程序设计入门</h3>
 ]]></content>
   </entry>
   
@@ -568,15 +585,6 @@
     <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case29/"/>
     <updated>2014-10-08T23:32:09+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/08/matlab-case29</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[matlab case28]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case28/"/>
-    <updated>2014-10-08T23:32:06+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case28</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
