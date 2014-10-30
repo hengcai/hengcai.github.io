@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iot | GIS行迹]]></title>
   <link href="http://hengcai.github.io/blog/categories/iot/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-30T16:05:18+08:00</updated>
+  <updated>2014-10-30T16:34:17+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[IOT  ParStream介绍]]></title>
+    <link href="http://hengcai.github.io/blog/2014/10/30/iot-parstream/"/>
+    <updated>2014-10-30T16:13:20+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/10/30/iot-parstream</id>
+    <content type="html"><![CDATA[<h3>物联网数据分析平台 ParStream</h3>
+
+<p><a href="http://www.infoq.com/cn/news/2014/10/parstream-Internet-of-things">ParStream介绍的博客</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Alljoyn基础知识学习]]></title>

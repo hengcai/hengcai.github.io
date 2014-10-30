@@ -72,6 +72,44 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/10/08/matlab-case11/">Matlab Case11</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-08T23:29:48+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/08/matlab-case11/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/10/08/matlab-case10/">Matlab Case10</a></h1>
     
     
@@ -409,155 +447,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/08/matlab-basic/">Matlab 基础数据知识</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-08T23:28:11+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/10/08/matlab-basic/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>1. Matlab历史</h3>
-
-<p>MATLAB(<strong>MAT</strong>rix <strong>LAB</strong>oratory)</p>
-
-<p>主要用途
-- 数值与符号计算
-- 绘图
-- 语言体系
-- 工具箱 （功能，学科）</p>
-
-<p>Matlab路径设置</p>
-
-<p>主要搜索过程</p>
-
-<p>函数<code>path</code> ;<code>help</code>; <code>userpath</code>  ;<code>pathtools</code>; <code>savepath;</code></p>
-
-<blockquote><ol>
-<li>是否为变量</li>
-<li>是否为函数</li>
-<li>当前目录</li>
-<li>搜索路径下的目录</li>
-</ol>
-</blockquote>
-
-<hr />
-
-<h3>2. Matlab基础的数据结构</h3>
-
-<blockquote><ol>
-<li>双精度类型 <code>double</code> ： 如[1, 2]。这是Matlab绝大部分进行操作的主要数据类型</li>
-<li>字符型 <code>char</code>  字符串操作也是数据最基础的数据类型 跟R相似,<code>double('a')</code>  <code>str2double(a)</code>,注意字符型与Ascii的相互转化过程，如果要执行Matlab的字符型语句，需要使用<code>eval</code></li>
-<li>稀疏矩阵<code>sparse</code> 这是R中所没有的，主要用于存储稀疏举证中的非0元素</li>
-<li>细胞性 <code>cell</code> 类似于R中 <code>list</code> 可以存储不同类型的，不同维度的数据</li>
-<li>结构性 <code>struct</code> 类似于R中 <code>data.frame</code>，可以存储不同列的数据,<code>isstruct</code> <code>fieldnames(s)</code></li>
-<li>存储型<code>storage</code> 这是R中所没有的。主要用来存储大的二进制文件，如图像，<code>uint8</code> 类型</li>
-<li>以上的基本的数据类型都可以组成数组的形式，可以是一维、二维、或者多维，</li>
-</ol>
-</blockquote>
-
-<hr />
-
-<h3>3. Matlab基础的数据操作</h3>
-
-<p>由于数组是Matlab基础的数据结构，所以操作数组的相关操作就是关键，如创建数组、访问数组</p>
-
-<p>R与Matab基本的组成结构都是：变量+函数，这也是区别于其他编程语言最为主要的地方，这样可以让数据<strong>数据科学家</strong>将更多的经历专注于数据分析工作</p>
-
-<blockquote><p>牢记R、Matlab的核心数据结构及基本操作,以及循环控制语句，剩下的大部分工作就是数学问题</p></blockquote>
-
-<p>Matlab的基本操作：</p>
-
-<ul>
-<li>变量命名，变量不需要预先定义，</li>
-<li>语句，有无分号决定是否输出执行结果，</li>
-<li>注释采用%符号</li>
-<li>赋值 变量=表达式</li>
-</ul>
-
-
-<p>Matlab几个比较常用的函数：
-<code>who var</code>  <code>clear</code> <code>clc</code>  <code>save</code> <code>eval()</code></p>
-
-<p>Matlab格式化输出： format格式</p>
-
-<hr />
-
-<h4>一维数组的基本操作</h4>
-
-<p>Matlab中的一维数组类似于R中的向量</p>
-
-<blockquote><ul>
-<li>创建数组<code>a =[1,2,3]</code>，类似于R中的向量<code>c(1,2,3)</code>，</li>
-<li>冒号定义 <code>startv : step : endv</code></li>
-<li>线性分割 <code>linspace(a,b,n)</code></li>
-<li>对数分割 <code>logspace(a,b,n)</code></li>
-<li>数组的访问</li>
-<li>访问是采用的括号<code>()</code> 而R中访问采用的是<code>[]</code> 这个是与R中相反的，<code>x([1,5])</code>表示取第一个与第5个，<code>x(1:3)</code>表示取数组中的1,2,3个，相反在R中取采用<code>r[c(1,5)]</code> 与<code>r[1:3]</code></li>
-</ul>
-</blockquote>
-
-<h5>矩阵基本操作</h5>
-
-<blockquote><ul>
-<li>使用行标、列标或者表中索引的位置来进行索引</li>
-<li>矩阵是按照列进行存储的，所以<code>sub2ind</code>  <code>ind2sub</code>函数可以显示所在的列号码</li>
-<li>重排矩阵<code>reshape</code>函数</li>
-<li>矩阵转置  <code>a=a'</code></li>
-<li>矩阵拆分 <code>a=a(:,2)</code>  <code>a(end-1,1)</code></li>
-<li>删除矩阵元素  <code>a(x,y) = []</code></li>
-<li>扩展矩阵  <code>repmat (a, 2,1)</code></li>
-<li>矩阵压缩,矩阵去重  <code>unique(E)</code></li>
-</ul>
-</blockquote>
-
-<h4>二维数组的基本操作</h4>
-
-<p>MatLab中的二维数组类似于R中的矩阵</p>
-
-<blockquote><ul>
-<li>创建二维数组 <code>x=[1,2,3; 4,5,6]</code></li>
-<li>在R中创建数组是利用Vector进行填充的</li>
-<li>MatLab中经常利用M文件来保存</li>
-</ul>
-</blockquote>
-
-<h4>高维数组的基本操作</h4>
-
-<p>Matlab中高维数组类似于R中数组，只不过R中的数组可以是1维，2维，多维，这里R中的多维数组类似于Matlab的高维数组</p>
-
-<hr />
-
-<h3>4. Matlab控制语句</h3>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="6">&larr; Older</a>
@@ -576,7 +465,7 @@
 	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
 <li class='category'><a href='/blog/categories/geotext/'>geotext (1)</a></li>
 <li class='category'><a href='/blog/categories/go/'>go (10)</a></li>
-<li class='category'><a href='/blog/categories/iot/'>iot (1)</a></li>
+<li class='category'><a href='/blog/categories/iot/'>iot (2)</a></li>
 <li class='category'><a href='/blog/categories/latex/'>latex (3)</a></li>
 <li class='category'><a href='/blog/categories/markdown/'>markdown (1)</a></li>
 <li class='category'><a href='/blog/categories/math/'>math (1)</a></li>
@@ -594,6 +483,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/30/iot-parstream/">IOT  ParStream介绍</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/30/golang-lisp/">Go Lisp包使用说明</a>
       </li>
     
@@ -607,10 +500,6 @@
     
       <li class="post">
         <a href="/blog/2014/10/18/research-conference-ica/">国际地图学协会 WorkShop  地理所</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/18/golang-gopherjs/">GopherJS 库学习</a>
       </li>
     
   </ul>
