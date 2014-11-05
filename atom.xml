@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-10-30T16:34:17+08:00</updated>
+  <updated>2014-11-05T21:53:52+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[中国科学院博士后联谊会2014年度理事大会]]></title>
+    <link href="http://hengcai.github.io/blog/2014/11/05/research-conference-postdoctor/"/>
+    <updated>2014-11-05T21:18:55+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/11/05/research-conference-postdoctor</id>
+    <content type="html"><![CDATA[<h3>梆梆安全的CEO 阚志刚的创业经验交流报告</h3>
+
+<p>阚总介绍的很实在，也很实际，比较接地气。重点介绍了创业过程中的三个关键要素</p>
+
+<blockquote><ol>
+<li>活着</li>
+<li>坚持</li>
+<li>团队</li>
+</ol>
+</blockquote>
+
+<h4>创业公司要努力活着</h4>
+
+<p>几个关键问题</p>
+
+<ol>
+<li>找钱，第一笔资金是比较麻烦的</li>
+<li>找人，</li>
+<li>找方向， 做自己最擅长的工作，隔行不取利</li>
+</ol>
+
+
+<h4>创业公司要学会坚持</h4>
+
+<p>坚持最重要一点理想宏达，自我麻醉。最重要一点放下烦恼</p>
+
+<p>基本一条</p>
+
+<blockquote><p>宠辱不惊,闲看庭前花开花落</p>
+
+<p>去留无意,漫随天外云卷云舒</p></blockquote>
+
+<h4>创业公司要管理团队</h4>
+
+<p>利益分配+功劳评定</p>
+
+<hr />
+
+<blockquote><p>  纵有雄心万丈，不如勤耕寸土</p></blockquote>
+
+<h3>几个有用网址</h3>
+
+<p><a href="http://www.zhsp.gov.cn/">中关村科技园区海淀园管理委员会</a></p>
+
+<p><a href="http://sc.zhsp.gov.cn/">海淀创业创新服务体系信息平台</a></p>
+
+<p><a href="http://www.bjchy.gov.cn/">北京朝阳</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[IOT  ParStream介绍]]></title>
@@ -586,15 +641,6 @@ comments: true</p>
     <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case33/"/>
     <updated>2014-10-08T23:34:10+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/08/matlab-case33</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[matlab case32]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case32/"/>
-    <updated>2014-10-08T23:32:19+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case32</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
