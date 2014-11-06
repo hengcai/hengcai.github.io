@@ -9,8 +9,27 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="web开发常用工具 mvc 工具 revel
+beego demo 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+package main import ( &quot;github.com/astaxie/beego&quot;
+) type &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +85,90 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/30/golang-goweb/">Go语言Web程序开发</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-30T21:53:57+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/09/30/golang-goweb/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>web开发常用工具</h3>
+
+<p>mvc 工具</p>
+
+<blockquote><p>revel
+beego</p></blockquote>
+
+<p>demo</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">package</span> <span class="nx">main</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">import</span> <span class="p">(</span>
+</span><span class='line'>  <span class="s">&quot;github.com/astaxie/beego&quot;</span>
+</span><span class='line'><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">type</span> <span class="nx">HomeController</span> <span class="kd">struct</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Controller</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">func</span> <span class="p">(</span><span class="nx">this</span> <span class="o">*</span><span class="nx">HomeController</span><span class="p">)</span> <span class="nx">Get</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">this</span><span class="p">.</span><span class="nx">Ctx</span><span class="p">.</span><span class="nx">WriteString</span><span class="p">(</span><span class="s">&quot;Hello World Hengcai&quot;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Router</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">HomeController</span><span class="p">{})</span>
+</span><span class='line'>  <span class="nx">beego</span><span class="p">.</span><span class="nx">Run</span><span class="p">()</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -566,262 +669,6 @@ tasklist /m **.dll</p></blockquote>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/26/r-basic-information/">R基础知识</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-26T09:26:15+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/26/r-basic-information/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>简介</h3>
-
-<p>数据分析的基本流程</p>
-
-<blockquote><ol>
-<li>安装 R与RStudio</li>
-<li>Windows Linux OSX  <a href="http://www.r-project.org/">R HOME</a></li>
-<li><a href="http://www.rstudio.com/">RStudio</a> 非常不错的IDE工具，推荐。</li>
-<li>包的管理</li>
-<li>安装 <code>install.packages("name")</code></li>
-<li>常用命令</li>
-<li>帮助 <code>help.start() help("foo")</code></li>
-<li>工作空间 <code>getwd() ls() rm() history() save.image("xx")</code></li>
-<li>输入输出  <code>source("xxx.R")  sink("xxx")</code></li>
-</ol>
-</blockquote>
-
-<h3>R基础数据结构</h3>
-
-<blockquote><ol>
-<li><strong>向量</strong></li>
-<li>只能包含相同类型的或模式（如数值型、字符型及逻辑型） <strong>示例</strong> ： <code>a&lt;-c(1,2,3,4)</code></li>
-<li>向量取值 <code>a[1:2] a[c(1,3,5)]   a[-1]  a[a&gt;1]</code></li>
-<li><p>向量比较 <code>c(1,2) &gt; c(2,3)</code></p></li>
-<li><p>矩阵</p></li>
-<li>数据框可以包含不同的类型，</li>
-<li>矩阵就代表是二维数组</li>
-<li><p>定义 <code>a&lt;-matrix(vector,nrow=5,ncol=4)</code>, 矩阵的取值方式是`a[行，列]</p></li>
-<li><p>数组</p></li>
-<li>array的维度可以大于2 主要包含 <code>array(vector, dimensions, dimnnames,)</code>  <strong>示例</strong>:<code>array(1:8, c(2,3))</code> 表示2行2列</li>
-<li><p>数组的取值 <code>a[1,1]</code></p></li>
-<li><p>数据框</p></li>
-<li>数据框的优势在于可以填充不同的类型值， 类似于Excel表格，或者SpSS表格，数据库是非常适合数据分析的，每一行代表一个样本，每一列代表一个变量或属性</li>
-<li><p>示例，<code>data.frame(col1,col2,col3)</code></p></li>
-<li><p>列表</p></li>
-<li>列表可是是以上类型的组合 <code>mylist &lt;-list(age=age,city=city,sex=sex)</code></li>
-</ol>
-</blockquote>
-
-<p><strong>附注</strong></p>
-
-<ul>
-<li>R是一种基于对象的语言，R中的每样东西都是对象，最基本的类是数值、字符、逻辑；复合类包含矩阵、数组数据框、列表</li>
-<li><code>Class(object) attributes(object)</code></li>
-</ul>
-
-
-<h3>R数据基本操作</h3>
-
-<blockquote><ol>
-<li>键盘输入</li>
-<li>控制台输入<code>x &lt;- readline()</code></li>
-<li>输入<code>x&lt;-scan()</code></li>
-<li>文本输出 <code>output &lt;-file('output.txt')  cat(1:100,sep="\t",file=output) close(output)</code></li>
-<li><p>文本输入<code>input &lt;- scan(file('output.txt'))</code></p></li>
-<li><p>表格数据</p></li>
-<li>读写文件 <code>read.table()</code></li>
-<li><p>写文件 <code>write.table()</code></p></li>
-<li><p>EXCEL数据</p></li>
-<li>需要RODBC数据库包</li>
-<li><p><code>odbcConnectExcel</code></p></li>
-<li><p>Database数据</p></li>
-<li>数据库 需要安装包 <code>library(RODBC)</code></li>
-<li><p>读写数据库 <code>channel &lt;- odbcConnect("mysql",uid=root,pwd=pproot)</code></p></li>
-<li><p>网络文本数据源</p></li>
-<li>结构化数据抓取  <a href="www.google.com/adplanner/static/top1000">top1000</a></li>
-<li>数据抓取的工作<code>tables &lt;- readHTMLTable(url,stringAsFactors=FALSE, header=F)</code></li>
-</ol>
-</blockquote>
-
-<h3>R的基本图形绘制</h3>
-
-<blockquote><ol>
-<li>基本图形</li>
-<li><p>基本的绘图包<code>graphics  lattice  ggplot2</code></p>
-
-<ul>
-<li>ggplot2 包的绘制 <code>p &lt;- ggplot(data=mpg,mapping=aes(x=cty,y=hwy,colour=factor(year))) + stat_smooth()</code></li>
-<li>lattic 包的绘制 <code>stripplot(Sepal.Length | Species,data=iris,layout=c(1,3))</code></li>
-<li>graphics 属于最基础的包的图形绘制</li>
-</ul>
-</li>
-<li><p>符号线条</p></li>
-<li><p>文本</p></li>
-<li><p>尺寸</p></li>
-</ol>
-</blockquote>
-
-<h3>R基本数据操作</h3>
-
-<blockquote><ol>
-<li>plyr包使用</li>
-<li><code>ddply() adply()</code></li>
-<li>基本的数据分析工具使用</li>
-</ol>
-</blockquote>
-
-<hr />
-
-<h3>R常用包</h3>
-
-<p>统计包的数量命令</p>
-
-<blockquote><ul>
-<li>pkgs &lt;- sort(.packages(all.available = TRUE))</li>
-<li>length(pkgs)</li>
-<li>pkgs</li>
-</ul>
-</blockquote>
-
-<p>1、聚类</p>
-
-<blockquote><ul>
-<li>常用的包： fpc，cluster，pvclust，mclust</li>
-<li>基于划分的方法: kmeans, pam, pamk, clara</li>
-<li>基于层次的方法: hclust, pvclust, agnes, diana</li>
-<li>基于模型的方法: mclust</li>
-<li>基于密度的方法: dbscan</li>
-<li>基于画图的方法: plotcluster, plot.hclust</li>
-<li>基于验证的方法: cluster.stats</li>
-</ul>
-</blockquote>
-
-<p>2、分类</p>
-
-<blockquote><ul>
-<li>常用的包：rpart，party，randomForest，rpartOrdinal，tree，marginTree，maptree，survival</li>
-<li>决策树: rpart, ctree</li>
-<li>随机森林: cforest, randomForest</li>
-<li>回归 Logistic回归, Poisson回归: glm, predict, residuals</li>
-<li>生存分析: survfit, survdiff, coxph</li>
-</ul>
-</blockquote>
-
-<p>3、关联规则与频繁项集
-常用的包：</p>
-
-<blockquote><ul>
-<li>arules：支持挖掘频繁项集，最大频繁项集，频繁闭项目集和关联规则</li>
-<li>DRM：回归和分类数据的重复关联模型</li>
-<li>APRIORI算法，广度RST算法：apriori, drm</li>
-<li>ECLAT算法： 采用等价类，RST深度搜索和集合的交集： eclat</li>
-</ul>
-</blockquote>
-
-<p>4、序列模式</p>
-
-<blockquote><ul>
-<li>常用的包： arulesSequences</li>
-<li>SPADE算法： cSPADE</li>
-</ul>
-</blockquote>
-
-<p>5、时间序列</p>
-
-<blockquote><ul>
-<li>常用的包： timsac</li>
-<li>时间序列构建函数： ts</li>
-<li>成分分解: decomp, decompose, stl, tsr
-6、统计</li>
-<li>常用的包： Base R, nlme</li>
-<li>方差分析: aov, anova</li>
-<li>密度分析: density</li>
-<li>假设检验: t.test, prop.test, anova, aov</li>
-<li>线性混合模型：lme</li>
-<li>主成分分析和因子分析：princomp</li>
-<li>方差分析对应的是Kruskal-Wallis秩和检验（R: kruskal.test)</li>
-<li>T检验对应的是Wilcoxon符号秩和检验（R: wilcox.test)</li>
-</ul>
-</blockquote>
-
-<p>7、图表</p>
-
-<blockquote><ul>
-<li>条形图: barplot</li>
-<li>饼图: pie</li>
-<li>散点图: dotchart</li>
-<li>直方图: hist</li>
-<li>密度图: densityplot</li>
-<li>蜡烛图, 箱形图 boxplot</li>
-<li>QQ (quantile-quantile) 图: qqnorm, qqplot, qqline</li>
-<li>Bi-variate plot: coplot</li>
-<li>树: rpart</li>
-<li>Parallel coordinates: parallel, paracoor, parcoord</li>
-<li>热图, contour: contour, filled.contour</li>
-<li>其他图: stripplot, sunflowerplot, interaction.plot, matplot, fourfoldplot,assocplot, mosaicplot</li>
-<li>保存的图表格式: pdf, postscript, win.metafile, jpeg, bmp, png</li>
-</ul>
-</blockquote>
-
-<p>8、数据操作</p>
-
-<blockquote><ul>
-<li>缺失值：na.omit</li>
-<li>变量标准化：scale</li>
-<li>变量转置：t</li>
-<li>抽样：sample</li>
-<li>堆栈：stack, unstack</li>
-<li>其他：aggregate, merge, reshape</li>
-</ul>
-</blockquote>
-
-<p>9、与数据挖掘软件Weka做接口</p>
-
-<blockquote><ul>
-<li>RWeka: 通过这个接口，可以在R中使用Weka的所有算法</li>
-</ul>
-</blockquote>
-
-<p>10、人工神经网络： nnet
-11、支持向量机SVM：e1071</p>
-
-<p>12、核函数：kernlab</p>
-
-<p>13、随机森林randomforest：randomForest</p>
-
-<p>14、制作分位箱图：Hmisc</p>
-
-<p>15、绘制图形：qplot，ggplot2，</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="17">&larr; Older</a>
@@ -838,7 +685,7 @@ tasklist /m **.dll</p></blockquote>
  <h1>分类目录</h1>
  <ul id="categories">
 	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
-<li class='category'><a href='/blog/categories/geotext/'>geotext (1)</a></li>
+<li class='category'><a href='/blog/categories/geotext/'>geotext (2)</a></li>
 <li class='category'><a href='/blog/categories/go/'>go (10)</a></li>
 <li class='category'><a href='/blog/categories/iot/'>iot (2)</a></li>
 <li class='category'><a href='/blog/categories/latex/'>latex (3)</a></li>
@@ -847,7 +694,7 @@ tasklist /m **.dll</p></blockquote>
 <li class='category'><a href='/blog/categories/matlab/'>matlab (2)</a></li>
 <li class='category'><a href='/blog/categories/ml/'>ml (3)</a></li>
 <li class='category'><a href='/blog/categories/r/'>r (1)</a></li>
-<li class='category'><a href='/blog/categories/research/'>research (5)</a></li>
+<li class='category'><a href='/blog/categories/research/'>research (6)</a></li>
 <li class='category'><a href='/blog/categories/vim/'>vim (1)</a></li>
 <li class='category'><a href='/blog/categories/web/'>web (1)</a></li>
 
@@ -856,6 +703,10 @@ tasklist /m **.dll</p></blockquote>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/11/06/research-geotext-nlpnlu-basic/">NLP vs NLU</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/11/05/research-conference-postdoctor/">中国科学院博士后联谊会2014年度理事大会</a>
@@ -871,10 +722,6 @@ tasklist /m **.dll</p></blockquote>
     
       <li class="post">
         <a href="/blog/2014/10/29/math-sage/">math sage</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/29/math-scalapack/">ScaLAPACK使用说明</a>
       </li>
     
   </ul>
