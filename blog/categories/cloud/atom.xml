@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: cloud | GIS行迹]]></title>
+  <link href="http://hengcai.github.io/blog/categories/cloud/atom.xml" rel="self"/>
+  <link href="http://hengcai.github.io/"/>
+  <updated>2014-11-13T10:57:00+08:00</updated>
+  <id>http://hengcai.github.io/</id>
+  <author>
+    <name><![CDATA[hengcai]]></name>
+    <email><![CDATA[hengcai007@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[大数据应用案例汇总]]></title>
+    <link href="http://hengcai.github.io/blog/2014/11/13/cloud-case/"/>
+    <updated>2014-11-13T10:53:30+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/11/13/cloud-case</id>
+    <content type="html"><![CDATA[<h3>百度迁徙</h3>
+
+<h3>伦敦眼</h3>
+
+<h3>预测</h3>
+]]></content>
+  </entry>
+  
+</feed>

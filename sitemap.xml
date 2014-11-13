@@ -3,6 +3,22 @@
   
   
   <url>
+    <loc>http://hengcai.github.io/blog/2014/11/13/book-tibet/</loc>
+    
+    <lastmod>2014-11-13T10:55:45+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengcai.github.io/blog/2014/11/13/cloud-case/</loc>
+    
+    <lastmod>2014-11-13T10:53:30+08:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://hengcai.github.io/blog/2014/11/06/research-geotext-nlpnlu-basic/</loc>
     
     <lastmod>2014-11-06T17:02:03+08:00</lastmod>
@@ -1301,21 +1317,21 @@
   
   <url>
     <loc>http://hengcai.github.io/</loc>
-    <lastmod>2014-11-06T17:24:51+08:00</lastmod>
+    <lastmod>2014-11-13T10:57:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://hengcai.github.io/blog/archives/</loc>
-    <lastmod>2014-11-06T17:24:51+08:00</lastmod>
+    <lastmod>2014-11-13T10:57:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://hengcai.github.io/about/</loc>
-    <lastmod>2014-11-06T17:24:51+08:00</lastmod>
+    <lastmod>2014-11-13T10:57:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

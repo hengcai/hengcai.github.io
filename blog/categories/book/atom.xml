@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: book | GIS行迹]]></title>
+  <link href="http://hengcai.github.io/blog/categories/book/atom.xml" rel="self"/>
+  <link href="http://hengcai.github.io/"/>
+  <updated>2014-11-13T10:57:00+08:00</updated>
+  <id>http://hengcai.github.io/</id>
+  <author>
+    <name><![CDATA[hengcai]]></name>
+    <email><![CDATA[hengcai007@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[读书笔记《西藏生死书》]]></title>
+    <link href="http://hengcai.github.io/blog/2014/11/13/book-tibet/"/>
+    <updated>2014-11-13T10:55:45+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/11/13/book-tibet</id>
+    <content type="html"><![CDATA[<p>很值得推荐的一本书，虽然这本书写的有点啰嗦，但是内容值得品味</p>
+]]></content>
+  </entry>
+  
+</feed>

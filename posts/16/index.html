@@ -9,8 +9,9 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="web开发常用工具 mvc 工具 revel
-beego demo 1
+  <meta name="description" content="Sublime 安装 LatexTools Sublime 打开 ctrl + Shift +p 输入 Latex Tools
+Windows安装 TextLive 或者 CTex
+配置环境变量，如下 1
 2
 3
 4
@@ -19,17 +20,7 @@ beego demo 1
 7
 8
 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-package main import ( &quot;github.com/astaxie/beego&quot;
-) type &hellip;">
+"windows": { // Path used when &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,6 +76,222 @@ package main import ( &quot;github.com/astaxie/beego&quot;
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/06/latex-sublime-env/">Latex+Sublime+windows开发环境配置</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-06T19:44:07+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/06/latex-sublime-env/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>Sublime 安装 LatexTools</h3>
+
+<ol>
+<li>Sublime 打开 <code>ctrl + Shift +p</code> 输入 <code>Latex Tools</code></li>
+<li>Windows安装 <code>TextLive</code> 或者 <code>CTex</code></li>
+<li>配置环境变量，如下</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>"windows": {
+</span><span class='line'>      // Path used when invoking tex & friends; "" is fine for MiKTeX
+</span><span class='line'>      // For TeXlive 2011 (or other years) use
+</span><span class='line'>      // "texpath" : "C:\\texlive\\2011\\bin\\win32;$PATH",
+</span><span class='line'>      //"texpath" : "",
+</span><span class='line'>      "texpath" : "C:\\texlive\\2014\bin\\win32;$PATH",
+</span><span class='line'>      // TeX distro: "miktex" or "texlive"
+</span><span class='line'>      "distro" : "texlive"
+</span><span class='line'>  },</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>编写编译文档</h3>
+
+<ol>
+<li>新建Tex，输入编辑内容</li>
+<li>安装 <code>ctrl+b</code>进行编译</li>
+</ol>
+
+
+<p>demo</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>\documentclass[UTF8]{ctexart}
+</span><span class='line'>\begin    {document}
+</span><span class='line'>
+</span><span class='line'>Happy \TeX ing
+</span><span class='line'>
+</span><span class='line'>\section{数字}
+</span><span class='line'>
+</span><span class='line'>\[    
+</span><span class='line'>a^2 + b^2 =c^2
+</span><span class='line'>\]
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>\end{document}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>运行结果</p>
+
+<p><img src="/images/post_images/2014-10-06/sublime-latex.png" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/06/golang-goconvey/">GoConvey使用说明</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-06T17:20:12+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/06/golang-goconvey/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>案例</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+</pre></td><td class='code'><pre><code class='go'><span class='line'><span class="kn">import</span> <span class="p">(</span>
+</span><span class='line'>  <span class="p">.</span> <span class="s">&quot;github.com/smartystreets/goconvey/convey&quot;</span>
+</span><span class='line'>  <span class="s">&quot;testing&quot;</span>
+</span><span class='line'><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestAdd</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;两数相加&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestSubtract</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;subtract &quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Subtract</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestMultiply</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Muyltipy&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">So</span><span class="p">(</span><span class="nx">Multipy</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="kd">func</span> <span class="nx">TestDivision</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;Dicision&quot;</span><span class="p">,</span> <span class="nx">t</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数 0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">_</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldNotBeNil</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">})</span>
+</span><span class='line'>      <span class="nx">Convey</span><span class="p">(</span><span class="s">&quot;被除数不为0&quot;</span><span class="p">,</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">num</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">Division</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">ShouldBeNil</span><span class="p">)</span>
+</span><span class='line'>          <span class="nx">So</span><span class="p">(</span><span class="nx">num</span><span class="p">,</span> <span class="nx">ShouldEqual</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">})</span>
+</span><span class='line'>  <span class="p">})</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -525,150 +732,6 @@ beego.AutoRouter()</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/26/golang-enviroment/">Go语言基础知识</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-26T09:27:00+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/26/golang-enviroment/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>1. Go介绍</h3>
-
-<blockquote><ul>
-<li>新的编程模型csp，在语言层面进行并发，而不是在操作系统级别，类似于Erlang比较推崇</li>
-<li>Go并发模型：<code>Goroutine</code>   <code>channel</code>  <code>RPC</code>  <code>内存模型</code></li>
-<li>goroutine 间并行的，底层混合使用飞阻塞IO和线程，通过通信来共享，不是通过共享来通信</li>
-<li>Channel的读写是阻塞的，传值、同步</li>
-<li>Go的包package里面都有一个init函数，在main执行之前，需要执行所有的package的init函数，但是执行顺序不确定</li>
-<li>GO的值与引用，值类型创建，基本数据类型，<code>maps</code>、<code>slice</code>、<code>channel</code>具有引用语义类型必须用<code>make</code>创建</li>
-<li>指针类型但是不支持指针运算</li>
-<li>go语言在语法层面与Slice类似，但是指针数组的概念</li>
-<li>枚举 <code>itoa</code></li>
-<li>GO比较新支持特性，<code>闭包</code>、<code>Lambda</code>  <code>自动赋值:=</code>  <code>Concept</code>利用<code>Interface</code>实现 <code>GC</code></li>
-<li>go的包管理，<code>C</code>、<code>os</code>,golang的词法语法分析库<code>ast</code>, 网络库<code>websocket</code></li>
-</ul>
-</blockquote>
-
-<h3>2. Go环境配置</h3>
-
-<h5>2.2 Windows环境配置</h5>
-
-<h5>2.2 Linux环境配置</h5>
-
-<h3>3. Go 主要的资源汇总</h3>
-
-<blockquote><ol>
-<li><a href="http://code.google.com/p/golang-china/">go语言中文文档</a></li>
-<li><a href="http://v.youku.com/v_show/id_XMTY4Mzk5NTc2.html">视频资源</a></li>
-<li><a href="http://u.youku.com/user_show/uid_golangchina">优酷的golang频道</a></li>
-<li><a href="http://blog.sina.com.cn/wonderfogo">go语言粉丝收集的资源汇总</a></li>
-<li><a href="http://bbs.studygolang.com/forum.php">golang的网上论坛</a></li>
-<li><a href="http://blog.sina.com.cn/s/blog_9736af7d0100wc6z.html">golang 收集比较好的文章</a></li>
-<li><a href="http://www.ucai.cn/course/all?sid=75">优才网 go语言相关资料</a></li>
-<li><a href="">Go，基于连接与组合的语言</a></li>
-<li><a href="http://www.cnblogs.com/yuxingfirst/archive/2012/11/28/2792366.html">GO语言并发之美</a></li>
-<li><a href="http://www.infoq.com/cn/articles/knowledge-behind-goroutine">goroutine背后的系统知识</a></li>
-</ol>
-</blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/26/matlab-case1/">MatLab案例学习1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-26T09:26:39+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/09/26/matlab-case1/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>Matlab与Office文档互操作</h3>
-
-<ol>
-<li>actxcontrol()函数
-
-<blockquote><p>h = actxcontrol(&lsquo;progid&rsquo;)</p>
-
-<p>h = actxcontrol(&lsquo;progid&rsquo;,&lsquo;param1&rsquo;,value1,&hellip;)</p>
-
-<p>h = actxcontrol(&lsquo;progid&rsquo;,position)</p>
-
-<p>h = actxcontrol(&lsquo;progid&rsquo;, position,fig_handle)</p>
-
-<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler)</p>
-
-<p>h = actxcontrol(&lsquo;progid&rsquo;,position,fig_handle,event_handler,&lsquo;filename&rsquo;)</p></blockquote></li>
-</ol>
-
-
-<p>实际应用：</p>
-
-<ol>
-<li>actxserver()函数</li>
-</ol>
-
-
-<blockquote><p>ps:
-tasklist /m **.dll</p></blockquote>
-
-<hr />
-
-<blockquote><p>读书笔记 <strong><em><a href="http://ilovematlab.cn/forum-181-1.html">&lt;&lt;Matlab统计分析与应用:40个案例分析>></a></em></strong></p></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="17">&larr; Older</a>
@@ -684,7 +747,9 @@ tasklist /m **.dll</p></blockquote>
     <section>
  <h1>分类目录</h1>
  <ul id="categories">
-	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+	 <li class='category'><a href='/blog/categories/book/'>book (1)</a></li>
+<li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+<li class='category'><a href='/blog/categories/cloud/'>cloud (1)</a></li>
 <li class='category'><a href='/blog/categories/geotext/'>geotext (2)</a></li>
 <li class='category'><a href='/blog/categories/go/'>go (10)</a></li>
 <li class='category'><a href='/blog/categories/iot/'>iot (2)</a></li>
@@ -705,6 +770,14 @@ tasklist /m **.dll</p></blockquote>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/11/13/book-tibet/">读书笔记《西藏生死书》</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/13/cloud-case/">大数据应用案例汇总</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/11/06/research-geotext-nlpnlu-basic/">NLP vs NLU</a>
       </li>
     
@@ -714,14 +787,6 @@ tasklist /m **.dll</p></blockquote>
     
       <li class="post">
         <a href="/blog/2014/10/30/iot-parstream/">IOT  ParStream介绍</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/30/golang-lisp/">Go Lisp包使用说明</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/29/math-sage/">math sage</a>
       </li>
     
   </ul>

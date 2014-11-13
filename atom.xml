@@ -4,7 +4,7 @@
   <title><![CDATA[GIS行迹]]></title>
   <link href="http://hengcai.github.io/atom.xml" rel="self"/>
   <link href="http://hengcai.github.io/"/>
-  <updated>2014-11-06T17:24:51+08:00</updated>
+  <updated>2014-11-13T10:57:00+08:00</updated>
   <id>http://hengcai.github.io/</id>
   <author>
     <name><![CDATA[hengcai]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[读书笔记《西藏生死书》]]></title>
+    <link href="http://hengcai.github.io/blog/2014/11/13/book-tibet/"/>
+    <updated>2014-11-13T10:55:45+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/11/13/book-tibet</id>
+    <content type="html"><![CDATA[<p>很值得推荐的一本书，虽然这本书写的有点啰嗦，但是内容值得品味</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[大数据应用案例汇总]]></title>
+    <link href="http://hengcai.github.io/blog/2014/11/13/cloud-case/"/>
+    <updated>2014-11-13T10:53:30+08:00</updated>
+    <id>http://hengcai.github.io/blog/2014/11/13/cloud-case</id>
+    <content type="html"><![CDATA[<h3>百度迁徙</h3>
+
+<h3>伦敦眼</h3>
+
+<h3>预测</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NLP vs NLU]]></title>
@@ -668,24 +690,6 @@ comments: true</p>
     <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case36/"/>
     <updated>2014-10-08T23:34:20+08:00</updated>
     <id>http://hengcai.github.io/blog/2014/10/08/matlab-case36</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[matlab case35]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case35/"/>
-    <updated>2014-10-08T23:34:17+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case35</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[matlab case34]]></title>
-    <link href="http://hengcai.github.io/blog/2014/10/08/matlab-case34/"/>
-    <updated>2014-10-08T23:34:14+08:00</updated>
-    <id>http://hengcai.github.io/blog/2014/10/08/matlab-case34</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

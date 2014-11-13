@@ -9,7 +9,11 @@
   <meta name="author" content="hengcai">
 
   
-  <meta name="description" content="简述 近年知识的相关研究越来越重要，从数据&ndash;>信息&ndash;>知识是通用的研究体系，各个领域的专家学者，不论是数据科学家、计算机学者、地理学者，都尝试在发挥数据价值方面进行努力。所以出现了很多名词概念是具有模糊性的： 知识库、专家知识库、地理知识图谱、地理知识图、地理本体、 &hellip;&#8221;>
+  <meta name="description" content="SAS&mdash;
+layout: post
+title: &ldquo;SAS基础知识学习&rdquo;
+date: 2014-10-17 13:46:35 +0800
+comments: true categories: sas ml 1 SAS系统的基本特点 1.1 简介 SAS 是 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +69,225 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/17/sas-basic/">Sas Basic</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-17T00:00:00+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/17/sas-basic/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>SAS&mdash;
+layout: post
+title: &ldquo;SAS基础知识学习&rdquo;
+date: 2014-10-17 13:46:35 +0800
+comments: true</p>
+
+<h2>categories: sas ml</h2>
+
+<h3>1 SAS系统的基本特点</h3>
+
+<h4>1.1 简介</h4>
+
+<ul>
+<li>SAS 是 Statistics Analysis System</li>
+</ul>
+
+
+<p>统计分析系统是一个模组软件系统，它由多个功能的模组组合而成，其相关软件模组的说明如下：</p>
+
+<ul>
+<li>BASE</li>
+</ul>
+
+
+<p>为统计分析系统的核心模组。提供档案建立、资料撷取、管理、分析和展示的功能。</p>
+
+<ul>
+<li>SAS/ASSIST
+软件为选单式的使用者接口模组。它能够将统计分析系统所提供的各种应用工具，以不用撰写程式的方法，而是以选单的方式去执行各模组的功能。</li>
+<li>SAS/CONNECT
+为协同式及分散式处理模组。它提供将各种不同平台的统计分析系统连结起来，使系统达到资料整合与资源共享的能力。</li>
+<li>SAS/GRAPH
+为制作高分辨率彩色图形模组。可用来产生多种颜色和多种型式的统计图，如：柱形图、圆饼图、点状图、三维图、等高线图和地图等等。</li>
+<li>SAS/ETS
+用来开发及维护主管资讯系统（Executive Information System）的应用系统开发工具。提供时间序列读取、分析、预测和建立计量经济模型等功能。</li>
+<li>SAS/AF
+应用系统开发工具。利用面向对象程式及图形的使用者界面（Graphic User Interface）来开应用系统。以利使用者方便应用SAS内的各项功能。</li>
+<li>SAS/FSP
+为图形使用者接口的资料交谈式工具。以图形接口作为资料登录、编辑、撷取和查询功能。</li>
+<li>SAS/ACCESS
+为和各数据库软件间的资料连结与转换。提供连结的数据库软件为：ORACLE、IBM DB2、MS ACCESS、DBASE、SYBASE、MS SQ、SERVER等等。</li>
+<li>SAS/STAT
+为全面性统计分析方法的工具。提供如回归分析、变异数分析、类别分析、多重变量分析、群集分析、存活分析、PSYCHOMETRICANALYSIS和无母数分析，并有正规化、线型化与非线型化等变量转换的功能。</li>
+<li>SAS/LAB
+以导引方式的进行资料分析的工具。提供统计的假设分析（Assumption），如OUTLIER、NORMAL、SCALING转换等功能，并且可以协助作出结论，而且可将执行过程全部储存，以做为日后分析或报告的参考。</li>
+<li>SAS/EIS
+应用系统开发工具。与SAS/AF不同的是，此模组不需作接口开发，祗要对相关资料作定义即可。</li>
+<li>SAS/IML
+为交谈式的高阶矩阵语言工具。提供高阶的科学、工程和统计上的应用，并具有图形产生及资料展示的功能。
+目前最新的9.3版本，亦支援自由软件统计软件计划R语言，透过其SAS/IML模组，可以有限度相互联结使用，但若要相互使用时，则必需安装R语言软件于SAS系统相同的电脑内。目前相关功能支援如下：
+两软件间的资料格式转换
+呼叫与使用R语言函数功能
+传输由R语言分析结果至SAS内</li>
+<li>SAS/QC
+为统计品管的工具。用于制程分析、实验设计等功能，以选单接口方式，方便使用者快速的得到结果。</li>
+<li>SAS/OR
+为决策支援工具。用于计划管理、线性及非线性规划与资源最佳化分配等功能。</li>
+<li><strong>SAS/GIS</strong>
+即为地理资料的图形系统。</li>
+<li><strong>SAS/WebAF</strong>
+如同SAS/AF般的图形接口开发工具。主要使用于发展于Web上的使用者接口。</li>
+</ul>
+
+
+<h4>1.2 SAS基本概念</h4>
+
+<blockquote><p>SAS系统的三大组成部分:</p></blockquote>
+
+<ol>
+<li>数据步：生成修改输出数据集</li>
+<li>过程步：对数据进行分析</li>
+<li>宏语言：功能模块</li>
+</ol>
+
+
+<blockquote><p>SAS程序的基本组成单位是语句Statement:</p></blockquote>
+
+<ul>
+<li>以关键词开始，以分号结束</li>
+<li>常用SAS语句：data input proc infile</li>
+</ul>
+
+
+<blockquote><p>SAS数据集的结构</p></blockquote>
+
+<p>类似于Matlab的Struct 或者R中的dataframe</p>
+
+<ul>
+<li>每一行代表一个观测，</li>
+<li>每列代表一个变量</li>
+</ul>
+
+
+<blockquote><p>SAS系统的命名规则</p>
+
+<p>SAS变量的属性</p></blockquote>
+
+<ul>
+<li>字符型与数值型两种类型</li>
+<li>变量格式format  与 输入格式 informat 标签对变量的注释与说明，可256字节</li>
+</ul>
+
+
+<blockquote><p>SAS 数据库：SAS文件集合</p></blockquote>
+
+<p>默认的自带数据库：Work Sasuser  SasHelp Maps</p>
+
+<p>自定义SAS数据库：<code>libname  libref 'path'</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>data prob2
+</span><span class='line'>
+</span><span class='line'>input 
+</span><span class='line'>  ID 
+</span><span class='line'>  Height
+</span><span class='line'>  Weight;
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>datalines;
+</span><span class='line'>
+</span><span class='line'>;
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'></span></code></pre></td></tr></table></div></figure>
+
+
+<p>SAS基本模块的使用</p>
+
+<h3>2 SAS程序设计入门</h3>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/15/web-bootstrap/">Bootstrap知识学习</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-15T09:34:04+08:00" pubdate data-updated="true"></time>
+        
+         | <a href="/blog/2014/10/15/web-bootstrap/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>简介</h3>
+
+<p>很强大的前端开发框架</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -604,82 +827,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/08/matlab-case35/">Matlab Case35</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-08T23:34:17+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/10/08/matlab-case35/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/10/08/matlab-case34/">Matlab Case34</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-10-08T23:34:14+08:00" pubdate data-updated="true"></time>
-        
-         | <a href="/blog/2014/10/08/matlab-case34/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="3">&larr; Older</a>
@@ -695,7 +842,9 @@
     <section>
  <h1>分类目录</h1>
  <ul id="categories">
-	 <li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+	 <li class='category'><a href='/blog/categories/book/'>book (1)</a></li>
+<li class='category'><a href='/blog/categories/clojure/'>clojure (1)</a></li>
+<li class='category'><a href='/blog/categories/cloud/'>cloud (1)</a></li>
 <li class='category'><a href='/blog/categories/geotext/'>geotext (2)</a></li>
 <li class='category'><a href='/blog/categories/go/'>go (10)</a></li>
 <li class='category'><a href='/blog/categories/iot/'>iot (2)</a></li>
@@ -716,6 +865,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/11/13/book-tibet/">读书笔记《西藏生死书》</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/13/cloud-case/">大数据应用案例汇总</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/11/06/research-geotext-nlpnlu-basic/">NLP vs NLU</a>
       </li>
     
@@ -725,14 +882,6 @@
     
       <li class="post">
         <a href="/blog/2014/10/30/iot-parstream/">IOT  ParStream介绍</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/30/golang-lisp/">Go Lisp包使用说明</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/29/math-sage/">math sage</a>
       </li>
     
   </ul>
