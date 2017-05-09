@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://hengcai.github.io/sitemap.xml 
